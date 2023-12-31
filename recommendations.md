@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Recommendations
-permalink: /brian-landru/recommendations/
+permalink: /recommendations/
 ---
 
 <head>
