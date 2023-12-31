@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /brian-landru/about/
+permalink: /about/
 ---
 
 
