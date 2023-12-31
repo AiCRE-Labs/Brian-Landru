@@ -1,0 +1,142 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@import "minima";
+
+h1 {
+  text-align: center; /* This centers all 'h1' elements */
+}
+
+.centered-landing-text {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin: 0;
+  font-size: 2em;
+}
+
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  margin-top: 10vh; /* Adjust the top margin based on viewport height */
+  font-size: 2em;
+  flex-direction: column;
+}
+
+@keyframes typing {
+  from {
+    max-width: 0;
+    visibility: hidden;
+  }
+  to {
+    max-width: 100ch; /* This should be large enough to accommodate the largest expected text. */
+    visibility: visible;
+  }
+}
+
+.typing-effect {
+  font-family: 'Zen Dots', sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  color: #333;
+  overflow: hidden;
+  border-right: .15em solid rgb(100, 204, 31);
+  white-space: nowrap;
+  letter-spacing: .15em;
+  display: inline-block;
+  visibility: hidden;
+  width: auto;
+  max-width: 0;
+  animation: 
+    typing 3.5s steps(40, end) forwards,
+    blink-caret .75s step-end infinite;
+}
+
+/* Non-typing centered text */
+.centered-text.standard {
+  animation: fadeIn 2s ease-in forwards;
+  opacity: 0;
+  font-size: 1.5em; /* Adjust the font size as needed */
+  margin-top: 5vh; /* Adjust as needed for space after the typing effect elements */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(100, 204, 31); }
+  }
+  
+  .underlined-text {
+    text-decoration: underline;
+  }
+ 
+  
+// @import "minima";
+
+// h1 {
+//     text-align: center; /* This centers all 'h1' elements */
+//   }
+// .centered-landing-text {
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: white;
+//     color: black;
+//     margin: 0;
+//     font-size: 2em;
+  
+//     /* Vertical spacing */
+//     margin-bottom: 0px; /* Space below each text block */
+//   }
+
+// .centered-text {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     background-color: white;
+//     color: black;
+//     margin: 20px 0; /* Add vertical spacing between blocks */
+//     font-size: 2em;
+//     flex-direction: column; /* To keep the text aligned vertically in the center */
+//   }
+  
+
+// @keyframes typing {
+//     from {
+//         max-width: 0;
+//         visibility: hidden;
+//     }
+//     to {
+//         max-width: 100ch; /* This should be large enough to accommodate the largest expected text. */
+//         visibility: visible;
+//     }
+// }
+
+// .typing-effect {
+//     font-family: 'Roboto', sans-serif;
+//     font-size: 15px;
+//     font-weight: normal;
+//     color: #333;
+//     overflow: hidden;
+//     border-right: .15em solid black;
+//     white-space: nowrap;
+//     letter-spacing: .15em;
+//     display: inline-block;
+//     visibility: hidden;
+//     width: auto;
+//     max-width: 0;
+//     animation: 
+//         typing 3.5s steps(40, end) forwards,
+//         blink-caret .75s step-end infinite;
+// }
