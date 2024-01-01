@@ -1,7 +1,8 @@
 ---
-layout: docs  # Specifies the layout to be used for this page
+layout: default  # Specifies the layout to be used for this page
 title: FAQs  # Title of the document
 permalink: /docs/faqs/  # Custom permalink (optional)
+collection: docs
 ---
 
 ### What is this? 

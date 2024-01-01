@@ -1,8 +1,10 @@
 ---
-layout: docs  # Specifies the layout to be used for this page
+layout: default  # Specifies the layout to be used for this page
 title: Product Roadmap  # Title of the document
 permalink: /docs/product-roadmap/  # Custom permalink (optional)
+collection: docs
 ---
+
 [Our most recent product roadmap is here.](https://github.com/orgs/AiCRE-Labs/projects/1/views/1)
 
 * Can I customize recommendations to comply with my company’s corporate tenant mix strategy too? 
