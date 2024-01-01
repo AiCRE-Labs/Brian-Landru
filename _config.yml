@@ -38,6 +38,9 @@ collections:
     output: true
     permalink: /docs/:path/
 
+include:
+  - _docs
+
 
 
 
