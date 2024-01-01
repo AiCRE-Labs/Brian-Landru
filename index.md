@@ -34,7 +34,7 @@ layout: default
 
 <div class="centered-text">
   <div class="typing-effect" style="animation-delay: 1s; font-size: 18px;">
-    You have 44 vacancies across 25 properties.
+    You have 44 vacancies across 25 of your 28 properties. 
   </div>
 </div>
 
@@ -47,7 +47,7 @@ layout: default
 
 <div class="centered-text">
   <!-- Wrap the text with an <a> tag to make it a link -->
-  <a href="/brian-landru/recommendations/" class="typing-effect" style="animation-delay: 6s; font-size: 24px; color:#64cc1f;">
+  <a href="/brian-landru/your-properties/" class="typing-effect" style="animation-delay: 6s; font-size: 24px; color:#64cc1f;">
     <!-- <div class="underlined-text"> -->
     Let's get started ▶  
   </a>

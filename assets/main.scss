@@ -80,63 +80,69 @@ h1 {
     text-decoration: underline;
   }
  
-  
-// @import "minima";
+  a {
+    transition: color 0.3s ease; /* Smooth color transition */
+}
 
-// h1 {
-//     text-align: center; /* This centers all 'h1' elements */
-//   }
-// .centered-landing-text {
-//     height: 100vh;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background-color: white;
-//     color: black;
-//     margin: 0;
-//     font-size: 2em;
-  
-//     /* Vertical spacing */
-//     margin-bottom: 0px; /* Space below each text block */
-//   }
+a:hover {
+    color: #00ff00; /* Change to your desired hover color */
+    text-decoration: underline; /* Optional: adds an underline on hover */
+}
 
-// .centered-text {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background-color: white;
-//     color: black;
-//     margin: 20px 0; /* Add vertical spacing between blocks */
-//     font-size: 2em;
-//     flex-direction: column; /* To keep the text aligned vertically in the center */
-//   }
-  
+// .u-email, .links-container, .footer-section, .footer-sections, .u-url
+/* Optional: Additional styling for links */
+.how-it-works-link, .u.email{
+    // min-width: 150px; /* Ensures the links are not too narrow */
+    // margin-top: 10px;
+    margin-right: 5px; /* Space between icon and text */
+    margin-left: 5px;
+    // color: #0000006b; /* GitHub's typical black color for consistency */
+    /* Add any specific styles you want for the links here */
+}
+.footer-col-wrapper {
+    display: flex;
+    justify-content: center; /* Centers the footer columns horizontally */
+    flex-wrap: wrap; /* Allows the footer columns to wrap on smaller screens */
+}
 
-// @keyframes typing {
-//     from {
-//         max-width: 0;
-//         visibility: hidden;
-//     }
-//     to {
-//         max-width: 100ch; /* This should be large enough to accommodate the largest expected text. */
-//         visibility: visible;
-//     }
-// }
+.footer-sections {
+    display: flex;
+    width: 100%; /* Ensures the footer sections take up the full width */
+    justify-content: center; /* Centers the footer sections horizontally */
+    align-items: center; /* Centers the footer sections vertically */
+    text-align: center; /* Ensures text within each section is centered */
+    border-left: 0px solid #ddd; /* Keeps the existing vertical line */
+}
 
-// .typing-effect {
-//     font-family: 'Roboto', sans-serif;
-//     font-size: 15px;
-//     font-weight: normal;
-//     color: #333;
-//     overflow: hidden;
-//     border-right: .15em solid black;
-//     white-space: nowrap;
-//     letter-spacing: .15em;
-//     display: inline-block;
-//     visibility: hidden;
-//     width: auto;
-//     max-width: 0;
-//     animation: 
-//         typing 3.5s steps(40, end) forwards,
-//         blink-caret .75s step-end infinite;
-// }
+.footer-section {
+    flex: 1; /* Allows each section to grow and take up equal space */
+    padding: 0px; /* Keeps your existing padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically within each section */
+    align-items: center; /* Centers the content horizontally within each section */
+}
+
+/* Adjustments for smaller screens to maintain centered content */
+@media (max-width: 768px) {
+    .footer-col-wrapper {
+        flex-direction: column;
+        align-items: center; /* Center-align items for a cleaner look on mobile */
+    }
+
+    .footer-sections {
+        flex-direction: column; /* Stacks the sections on top of each other */
+        border-left: none; /* Removes the vertical line on smaller screens */
+    }
+
+    .footer-section {
+        padding: 10px; /* Reduces padding on smaller screens */
+        align-items: center; /* Ensures content is centered within each section */
+    }
+}
+
+/* Ensure that the overall footer is centered and does not take up too much space */
+.site-footer {
+    padding: 15px; /* Adjust the padding as needed */
+    text-align: center; /* Ensures that the text is centered */
+}
