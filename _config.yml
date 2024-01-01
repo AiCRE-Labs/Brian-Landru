@@ -33,13 +33,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# collections:
-#   docs:
-#     output: true
-#     permalink: /docs/:path/
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
 
-include:
-  - _docs
+# include:
+#   - _docs
  
 
 
