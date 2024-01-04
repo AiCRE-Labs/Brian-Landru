@@ -166,3 +166,11 @@ a:hover {
     transform: translateX(0);
     animation: slideInFromLeft 0.5s ease-out forwards;
   }
+
+  /* Add this to your CSS file */
+.img-responsive {
+  width: 100%;
+  max-width: 1200px; /* Set the maximum width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove extra space below image */
+}
