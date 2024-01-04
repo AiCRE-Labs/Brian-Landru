@@ -39,6 +39,15 @@ h1 {
     visibility: visible;
   }
 }
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(100, 204, 31); }
+  }
 
 .typing-effect {
   font-family: 'Zen Dots', sans-serif;
@@ -66,16 +75,7 @@ h1 {
   margin-top: 5vh; /* Adjust as needed for space after the typing effect elements */
 }
 
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-  }
-}
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: rgb(100, 204, 31); }
-  }
-  
+
   .underlined-text {
     text-decoration: underline;
   }
@@ -173,4 +173,92 @@ a:hover {
   max-width: 1200px; /* Set the maximum width */
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove extra space below image */
+}
+
+/* Table styles */
+.recommendations-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-bottom: 20px; /* Add space below the table */
+}
+
+.recommendations-table th,
+.recommendations-table td {
+  padding: 10px; /* Add padding inside cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Add a border to the cells */
+}
+
+.recommendations-table th {
+  background-color: #f8f8f8; /* Add a background color to header cells */
+  font-size: 16px; /* Change font size for header cells */
+}
+
+.recommendations-table td {
+  font-size: 14px; /* Change font size for body cells */
+}
+
+
+/* Table styles */
+.vacancies-table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Collapse borders */
+  margin-bottom: 20px; /* Add space below the table */
+}
+
+.vacancies-table th,
+.vacancies-table td {
+  padding: 10px; /* Add padding inside cells */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ddd; /* Add a border to the cells */
+}
+
+.vacancies-table th {
+  background-color: #f8f8f8; /* Add a background color to header cells */
+  font-size: 16px; /* Change font size for header cells */
+}
+
+.vacancies-table td {
+  font-size: 14px; /* Change font size for body cells */
+}
+
+/* Centered text styles */
+.centered-text h3 {
+  font-size: 18px; /* Change font size for h3 elements */
+  margin-bottom: 5px; /* Add space below the h3 element */
+}
+
+
+// horizontal line
+hr {
+  border: none; /* Remove the default border */
+  height: 1px; /* Set the height of the line */
+  background-color: #16ee16; /* Set the color of the line */
+  margin: 20px 0; /* Add some space above and below the line */
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* Optional: adds underline to indicate it's hoverable */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

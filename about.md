@@ -10,6 +10,7 @@ permalink: /about/
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 
+
 <div class="centered-text" >
 <div class="typing-effect" style="animation-delay: 0s;">AiCRE maximizes financial stability for tenants, agents, and retail CRE owners. </div>
 <br>
@@ -19,10 +20,4 @@ permalink: /about/
 <br>
 <div class="typing-effect" style="animation-delay: 10s;">Use it to help select the right tenants and close deals faster. </div>
 </div>
-
-
-
-
-
-
 

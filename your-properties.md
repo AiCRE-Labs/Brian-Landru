@@ -20,3 +20,10 @@ permalink: /your-vacancies/
   <!-- </li> -->
 {% endfor %}
 </div>
+
+
+{% for property in site.data.properties %}
+  {% if property[1].site_plan %}
+    ![{{ property[0] }}]({{ property[1].site_plan | relative_url }})
+  {% endif %}
+{% endfor %}
