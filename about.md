@@ -10,19 +10,15 @@ permalink: /about/
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 
-
-<div class="typing-effect" style="animation-delay: 0s;">AiCRE maximizes financial stability for all Retail CRE stakeholders:</div>
+<div class="centered-text" >
+<div class="typing-effect" style="animation-delay: 0s;">AiCRE maximizes financial stability for tenants, agents, and retail CRE owners. </div>
 <br>
-<div class="typing-effect" style="animation-delay: 3s;">Tenants, agents, and owners.</div>
+<div class="typing-effect" style="animation-delay: 3s;">We do this by optimizing the most important activity in CRE: tenant selection. </div>
 <br>
-
-<div class="typing-effect" style="animation-delay: 5s;">We do this by using  autonomous intelligence on high leverage decisions.</div>
-
-<div class="typing-effect" style="animation-delay: 7s;">Like tenant selection.</div>
-
+<div class="typing-effect" style="animation-delay: 6s;">This website is a personalized interface to our AI, trained on the industry's largest database. </div>
 <br>
-<div class="typing-effect" style="animation-delay: 9s;">This website is personalized to your properties. Use it to close deals faster.</div>
-<br>
+<div class="typing-effect" style="animation-delay: 10s;">Use it to help select the right tenants and close deals faster. </div>
+</div>
 
 
 

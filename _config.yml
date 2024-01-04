@@ -26,7 +26,7 @@ title: AiCRE
 baseurl: "/brian-landru" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  AiCRE-Labs
+# github_username:  AiCRE-Labs
 
 # Build settings
 theme: minima

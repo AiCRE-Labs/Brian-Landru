@@ -1,52 +1,49 @@
 ---
 layout: default  # Specifies the layout to be used for this page
 title: FAQs  # Title of the document
-permalink: /docs/faqs/  # Custom permalink (optional)
+permalink: /docs/faqs/  
 collection: docs
 ---
 
-### What is this? 
+<h1> What is this?</h1>
+The tool you're using is called Dr. Fill. It's AiCRE's solution to tenant selection. It analyzes information about your properties, their tenants, the surrounding trade area, and historical data to recommend the tenant types that will be the most useful in your property's vacancies.
 
-The tool you're using is called Dr. Fill. It's AiCRE's solution to tenant selection. It looks at information about your property, its tenants, the surrounding trade area, and more and recommends the tenant types that will be the most useful in your property's vacancies.
 
+<h1>How are recommendations made?</h1>
+Dr. Fill makes tenant type recommendations that are predicted to be the most useful across different objectives held by Retailers, Leasing Agents, and Retail CRE Management. 
 
-### How are recommendations made?
-
-Dr. Fill makes tenant type recommendations that are predicted to be the most useful across different objectives held by different stakeholders: Retailers, Leasing Agents, and Retail CRE Management. 
-
-The usefulness of a recommendation is measured by what we call **The Score**. **The Score** is designed to coordinate, balance, optimize, and simplify the many different objectives different stakeholders have into a single easy-to-understand number, without skewing the importance of any single objective. The objectives and how we measure them are:
+The usefulness of a recommendation is measured by what we call **The Score**. **The Score** is designed to coordinate, balance, and simplify the many different objectives the three primary stakeholders have into a single number that's easy to understand. This combination of objectives is done without skewing toward any single objective. The objectives and how we measure them are:
 
 | Objective                                   | How it’s measured                                                                                                                                                                                                                                                                                                                                        |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Minimize tenant turnover                    | Cumulative annual risk of all the tenants at the property defecting at any given point. We estimate this using historical data on tenant turnover.                                                                                                                                                |
-| Minimize competition at the property        | 1 / (competition level x competition quality)                                                                                                                                                                                                                                                                                                            |
-| Maximize complementarity of tenant mix      |                                                                                                                                                                                                                                                                                                                                                          |
-| Maximize diversity at the property          | k = number of tenant types at property p.                                                                                                                                                                                                                                                                                                                |
-| Maximize rents                              | How sensitive tenant types are to rent hikes. This is measured by the elasticity of demand given the property, tenant, and trade area. By collecting data on tenant types across a variety of circumstances like geography, urban density, trade are types, etc., we can figure out what characteristics certain tenant types are willing to pay more for. |
-| Maximize consumer draw                      | Average foot traffic volume to property. Placer.ai data                                                                                                                                                                                                                                                                                                   |
-| Maximize consumer visit duration            | Average time spent per visit to property. Placer.ai data                                                                                                                                                                                                                                                                                                  |
-| Minimize Tenant Improvement Allowance (TIA) | We estimate how much TI it would take to convert a space from current to target tenant type, given what we know about common industry requirements for the space infrastructure, utility composition, etc.                                                                                      |
+| Minimize tenant turnover                    | Cumulative annual risk of the tenants at the property defecting at any given point. We estimate this using historical data on tenant turnover.                                                                                                                                                |
+| Minimize competition at the property        | This is measured by how competitive each tenant is to every other tenant. We then average the results and weight by tenant type GLA. Competitiveness is the cross tenant type elasticity of demand. The intuition of this metric is simple: competitors affect each other's demand by increasing or decreasing their prices. For example, Jelly stores are competitive with Jam stores. We know this because if the price of jelly goes up, people buy less jelly but buy more jam. On the other hand, if peanut butter gets more expensive, sales of both jelly and jam go down. Peanut Butter stores are not competitive with Jelly stores, while Jelly stores are quite competitive with Jam stores.                                                                                                                                                                                                                                                                                                                |
+| Maximize complementarity of tenant mix      |      This is the inverse of competitivenss. Peanut Butter Stores and Milk Stores are complimentary, but Jelly Stores and Jam Stores are not.                                                                                                                                                                                                                                                                                                                                                    |
+| Maximize diversity at the property          | We call how diverse the set of co-tenants is **Property Diversity.** **Property Diversity** ranges from 0% to 100%. 0% is the least diverse, meaning every tenant type is the same. 100% is the most diverse, meaning every tenant type is different. Technically, it's a metric based on Shannon's Diversity Index. In the context of Dr. Fill, **Property Diversity** quantifies how hard it is to predict a tenant’s type based solely on the vacant space’s share of the property GLA. There are two important advantages in quantifying Property Diversity this way. It's nuanced. It considers both the presence and proportion of different tenant types in terms of the property’s overall GLA. It assumes that a more even distribution of GLA across tenant types indicates greater diversity.                                                                                                                                                                                                                                                                                                                |
+| Maximize rents                              | We measure rent sensitivity by the elasticity of demand given the property, tenant, and trade area. This tells us how sensitive tenant types are to rent hikes. By collecting data on tenant types across a variety of circumstances like geography, urban density, trade are types, etc., we can figure out what characteristics certain tenant types are willing to pay more for. |
+| Maximize consumer draw                      | Average foot traffic volume to the property.                                                                                                                                                                                                                                                                                                    |
+| Maximize consumer visit duration            | Average time spent per visit to the property.                                                                                                                                                                                                                                                                                                   |
+| Minimize Tenant Improvement Allowance (TIA) | We estimate how many tenant improvement dollars it would take to convert a space from the current tenant type to the target tenant type. We can do this because we have data on common industry requirements for the space infrastructure, utility composition, etc., across tenant types                                                                                      |
 
-Each objective is optimized using data from four sources: 
-1. **the property profile**
-2. the property’s existing **tenant-mix profile**
-3. trade area **demographics**
-4. trade area **competition**. 
+<h1> What data are you using? </h1>
 
-Each of these sources is broken down even further so we can measure, weight, and balance specific priorities in tenant selection, depending on which objective we’re optimizing. 
+### At a high level, data comes from four sources: 
 
+1. **Property profiles**
+2. **Property tenant-mix profiles**
+3. **Trade area demographics**
+4. **Trade area competition**
+
+Each of these sources is broken down so we can measure, optimize, and balance specific aspects of tenant selection that each stakeholder cares about. Let's break them down.
 
 #### Property Profiles 
-consist of the U.S. state, GLA of the property, and GLA of the vacant space(s). 
-* Property Tenant Mix Profiles: we created a single metric, called the Tenant Mix Index (TMI), that combines two things that both leasing agents and prospective retailers care about: how competitive the property is and how diverse the property is. The TMI reflects a balance between these, and has the ability to emphasize one over the other through weighting. A higher score indicates that the property is strong in both aspects, or exceptionally strong in one if heavily weighted. 1 is the maximum TMI, 0 is the minimum. Diversity and competitiveness default to equal weighting when calculating TMI for a property. But if customers prefer, Dr. Fill can reverse engineer if your tenant mix strategy values diversity or competitiveness more and adapt recommendations accordingly. Let’s break down how we quantify diversity and competitiveness.
-    * **Competitiveness.** This measures how complementary or competitive the existing co-tenants are. We call this Property Competitiveness.
-    * Property Competitiveness ranges from -1 to 1, where -1 is the least competitive (the most complimentary), 1 is the most competitive (the least complimentary), and 0 is neutral. Property Competitiveness is the average Tenant-to-tenant competitiveness at the property after all the tenant types were compared with one another, weighted by each tenant type's GLA. 
-    * Tenant types are considered more competitive with each other when price increases of one make people buy more of the other. People buy more jelly when the price of jam goes up, for example. Tenant types are considered more complimentary with each other when price increases of one make people buy less of the other. People buy less peanut butter when the price of jelly goes up, for example.
-    * **Diversity.** How diverse the set of existing co-tenants is. We call this **Property Diversity.**
-    * **Property Diversity** ranges from 0 to 1. 0 is the least diverse, meaning every tenant type is the same. 1 is the most diverse, meaning every tenant type is different. Technically, it's a metric based on Shannon's Diversity Index. In the context of Dr. Fill, Property Diversity quantifies how hard it is to predict a tenant’s type based solely on the vacant space’s share of the property GLA. 
-    * There are two important advantages in quantifying Property Diversity this way: 
-        1. It's nuanced. It considers both the presence and proportion of different tenant types in terms of the property’s overall GLA.
-        2. It assumes that a more even distribution of GLA across tenant types indicates greater diversity. 
+*Property profiles* consist of the U.S. state, property GLA, and GLA of the vacant space(s).
+
+#### Property Tenant Mix Profiles
+*Property Tenant Mix Profiles* are a combination of proprietary metrics that measure how competitive and diverse the property's tenant mix is.
+
+We created a single metric, called the **Tenant Mix Index (TMI)**, that combines two things that both leasing agents and prospective retailers care about: how competitive the property is and how diverse the property is. The **TMI** reflects a balance between these, and has the ability to emphasize one over the other through weighting. A higher score indicates that the property is strong in both aspects, or exceptionally strong in one if heavily weighted. 100% is the maximum **TMI**, 0% is the minimum. Diversity and competitiveness default to equal weighting when calculating **TMI** for a property. But if customers prefer, Dr. Fill can reverse engineer if your tenant mix strategy values diversity or competitiveness more and adapt recommendations accordingly. 
+
 
 #### Trade Area Competition
 Trade Area Competition is measured in terms of the level of competition and the quality of that competition. 
@@ -54,14 +51,18 @@ Trade Area Competition is measured in terms of the level of competition and the 
 * *Quality of Competition.* The average 5 star Google Review of those businesses.
 
 #### Trade Area Demographics
-Average household income, education levels, and home values in the trade area. 
+
+We analyze demographics of the trade area as well. Specifically: 
+* Average household income
+* Average education levels
+* Average  home values  
 
 Recommendations prioritize these four sources because they drive outcomes that many Retail CRE stakeholders care about. 
 Retailers care about finding a location that helps their business thrive.
 Leasing agents care about making retailers happy, reducing time off market, and fulfilling corporate tenant mix strategy. 
 Commercial Real Estate management cares about financial stability, minimizing tenant turnover, maximizing consumer draw and visit duration, and maximizing overall property desirability. 
 
-### How do you know the recommendations are good? 
+<h1>How do you know the recommendations are good? </h1>
 
 Our first priority is making *useful* recommendations. And we can’t do that if they’re not good. We evaluate the goodness of recommendations by looking at many different metrics across many different geographies, property profiles, and trade areas, to figure out when recommendations are good. In fact, we have no single definition or dimension of ‘goodness’. Our many evaluation metrics and what they are are:
 
@@ -76,34 +77,37 @@ Our first priority is making *useful* recommendations. And we can’t do that if
 | Trust             | Your trust in its recommendations.                                                                                                                                                                                                                                                                                                                                                                                                                      | Subject matter experts consider recommendations to be intuitive, reasonable, useful, and insightful.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Novelty           | Novel recommendations are recommendations for tenants that the user did not know about or wouldn’t have chosen themselves (but are nevertheless useful)                                                                                                                                                                                                                                                                                                 | Popular tenant types are less likely to be novel. So novelty can be taken into account by using an accuracy metric where the system does not get the same credit for correctly predicting popular tenants as it does when it correctly predicts unpopular tenants.                                                                                                                                                                                                                       |
 | Serendipity       | How surprising the successful recommendations are.                                                                                                                                                                                                                                                                                                                                                                                                     | One can think of serendipity as the amount of relevant information that is new to the user in a recommendation. E.g., if the user has no history of managing a tenant type at a property like the one it’s being recommended for.                                                                                                                                                                                                                                                       |
-| Diversity         | The opposite of similarity Property Diversity                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Diversity         | How heterogenous the set of recommendations are.                                                                                                                                                                                                                                                                                                                                                                                                          |   Count of unique tenant types in the recommendations.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 
 
-### How does the AI work?
 
-Dr. Fill is a special breed of AI known as a [Deep Reinforcement Learning Agent](https://en.wikipedia.org/wiki/Deep_reinforcement_learning). This is just a fancy way of saying that it learns the best thing to do through trial and error. Dr. Fills actions are its recommendations, its rewards are the expected utility of optimizing the above objective functions, and its environment is the combination of the property profile, trade area, and other defining physical details in the real world.
+<h1>How does the AI work? </h1>
+Dr. Fill is a special breed of AI known as a [Deep Reinforcement Learning Agent](https://en.wikipedia.org/wiki/Deep_reinforcement_learning). This is just a fancy way of saying that it learns the best thing to do by exploiting strategies that have worked in the past and exploring better strategies through careful experimentation. Dr. Fills actions are its recommendations, its rewards are the expected utility of optimizing the above objective functions, and its environment is the combination of the property profile, trade area, and other defining physical details in the real world.
 
-### Where’s the data come from?
+
+<h1>Where’s the data come from? </h1>
 
 | Data                    | Source                                                               |
 |-------------------------|----------------------------------------------------------------------|
-| Property Profiles       | Scraped from public websites for non-customers.                      |
-| Tenant Profiles         | Scraped from public websites for non-customers.                      |
-| Vacancy Information     | Scraped from public websites for non-customers.                      |
-| Site Plans              | Scraped from public websites for non-customers.                      |
+| Property Profiles       | Public websites for non-customers.                      |
+| Tenant Profiles         | Public websites for non-customers.                      |
+| Vacancy Information     | Public websites for non-customers.                      |
+| Site Plans              | Public websites for non-customers.                      |
 | Trade Area Demographics | US Census Bureau                                                     |
 | Trade Area Competition  | Level of competition: OSM OverPass API, Quality of competition: Google |
 
 
 
-### Where did the tenant type categories come from? 
+<h1>Where did the tenant type categories come from?</h1> 
+
 We use 40+ tenant type descriptions from ULI Descriptions as the base and harmonize that with the tenant type information a customer has on file. We harmonize a customer’s tenant type data into the 40+ categories based on how semantically similar the tenant names and tenant category names are. E.g., Fast Casual - Asian and Asian Style Restaurant are both very similar semantically so belong in the same Tenant Type.
 
-### How do I use this info? 
+<h1>How do I use this info?</h1>
+
 Anyway you’d like! We recommend using it to learn about specific drivers of your property’s dynamics and in conversations with prospective tenants to help close deals.
 
 
-### What's on your product roadmap? 
+<h1> What's on your product roadmap? </h1>
 
 Our AI Engineering team is actively working on a number of useful features. Check out the most recent product roadmap [here](https://github.com/orgs/AiCRE-Labs/projects/1/views/1). 
