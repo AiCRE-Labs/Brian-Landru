@@ -28,7 +28,7 @@ layout: default
 
 <div class="centered-text">
   <!-- Wrap the text with an <a> tag to make it a link -->
-  <a href="/brian-landru/your-properties/" class="typing-effect" style="animation-delay: 8s; font-size: 24px; color:#64cc1f;">
+  <a href="/brian-landru/your-vacancies/" class="typing-effect" style="animation-delay: 8s; font-size: 24px; color:#64cc1f;">
     <!-- <div class="underlined-text"> -->
     Let's get started ▶  
   </a>

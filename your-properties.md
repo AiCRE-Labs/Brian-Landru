@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Your Vacancies
+permalink: /your-vacancies/
 ---
 
 <div class="centered-text">
