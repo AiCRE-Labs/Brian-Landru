@@ -5,7 +5,14 @@ permalink: /docs/faqs/
 collection: docs
 ---
 
-<h1> What is this?</h1>
+
+<div class="centered-text">
+  <div class="typing-effect">
+  <h1> What is this? </h1>     
+  </div>
+</div> 
+
+
 The tool you're using is called Dr. Fill. It's AiCRE's solution to tenant selection. It analyzes information about your properties, their tenants, the surrounding trade area, and historical data to recommend the tenant types that will be the most useful in your property's vacancies.
 
 
@@ -26,7 +33,6 @@ The usefulness of a recommendation is measured by what we call **The Score**. **
 | Minimize Tenant Improvement Allowance (TIA) | We estimate how many tenant improvement dollars it would take to convert a space from the current tenant type to the target tenant type. We can do this because we have data on common industry requirements for the space infrastructure, utility composition, etc., across tenant types                                                                                      |
 
 <h1> What data are you using? </h1>
-
 ### At a high level, data comes from four sources: 
 
 1. **Property profiles**

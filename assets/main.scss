@@ -12,7 +12,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #fdfdfd;
   color: black;
   margin: 0;
   font-size: 10em;
@@ -22,7 +22,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: #fdfdfd;
   color: black;
   margin-top: 10vh; /* Adjust the top margin based on viewport height */
   font-size: 2em;
@@ -46,7 +46,7 @@ h1 {
 }
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: rgb(100, 204, 31); }
+    50% { border-color: #8dd443; }
   }
 
 .typing-effect {
@@ -55,7 +55,7 @@ h1 {
   font-weight: normal;
   color: #333;
   overflow: hidden;
-  border-right: .15em solid rgb(100, 204, 31);
+  border-right: .15em solid #8dd443;
   white-space: nowrap;
   letter-spacing: .15em;
   display: inline-block;
@@ -85,7 +85,7 @@ h1 {
 }
 
 a:hover {
-    color: #00ff00; /* Change to your desired hover color */
+    color: #8dd443; /* Change to your desired hover color */
     text-decoration: underline; /* Optional: adds an underline on hover */
 }
 
@@ -233,7 +233,7 @@ a:hover {
 hr {
   border: none; /* Remove the default border */
   height: 1px; /* Set the height of the line */
-  background-color: #16ee16; /* Set the color of the line */
+  background-color: #8dd443; /* Set the color of the line */
   margin: 20px 0; /* Add some space above and below the line */
 }
 .tooltip {
@@ -261,4 +261,17 @@ hr {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+/* Initially hide headers */
+.hidden-header {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Class to be added when header is in viewport */
+.visible-header {
+  opacity: 1;
+  transform: translateY(0);
 }

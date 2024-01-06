@@ -1,53 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Other head elements -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <!-- Your existing stylesheets -->
-</head>
-<body>
-
-
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-      <div class="footer-col-wrapper">
-          <div class="footer-col footer-col-1">
-              <ul class="contact-list">
-                  <li class="p-name">
-                      {%- if site.author -%}
-                          {{ site.author | escape }}
-                      {%- else -%}
-                          <!-- {{ site.title | escape }} -->
-                      {%- endif -%}
-                  </li>
-              </ul>
-          </div>
 
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
 
-          <div class="footer-col footer-col-2 links-container">
-              {%- if site.email -%}
-              <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-              {%- endif -%}
-              {%- include social.html -%} <!-- Assuming GitHub link is here -->
-
-              <a href="/brian-landru/docs/faqs/" class="how-it-works-link">
-                  <i class="fas fa-info-circle"></i> How It Works
-              </a>
-              <br>
-              <br>
-              <a href="/brian-landru/docs/product-roadmap/" class="how-it-works-link">
-                <i class="fas fa-map-signs"></i> Roadmap
-            </a>
-          </div>
-
-          <div class="footer-col footer-col-3">
-              <p>{{- site.description | escape -}}</p>
-          </div>
-          
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+            </li>
+            {%- if site.email -%}
+            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            {%- endif -%}
+        </ul>
       </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+
   </div>
+
 </footer>
-
-
