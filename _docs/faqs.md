@@ -6,17 +6,15 @@ collection: docs
 ---
 
 
-<div class="centered-text">
-  <div class="typing-effect">
-  <h1> What is this? </h1>     
-  </div>
-</div> 
 
+
+<h1><span id="whatisthis"></span></h1>
 
 The tool you're using is called Dr. Fill. It's AiCRE's solution to tenant selection. It analyzes information about your properties, their tenants, the surrounding trade area, and historical data to recommend the tenant types that will be the most useful in your property's vacancies.
 
 
-<h1>How are recommendations made?</h1>
+
+<h1><span id="howrecs"></span></h1>
 Dr. Fill makes tenant type recommendations that are predicted to be the most useful across different objectives held by Retailers, Leasing Agents, and Retail CRE Management. 
 
 The usefulness of a recommendation is measured by what we call **The Score**. **The Score** is designed to coordinate, balance, and simplify the many different objectives the three primary stakeholders have into a single number that's easy to understand. This combination of objectives is done without skewing toward any single objective. The objectives and how we measure them are:
@@ -117,3 +115,56 @@ Anyway you’d like! We recommend using it to learn about specific drivers of yo
 <h1> What's on your product roadmap? </h1>
 
 Our AI Engineering team is actively working on a number of useful features. Check out the most recent product roadmap [here](https://github.com/orgs/AiCRE-Labs/projects/1/views/1). 
+
+
+<!-- Load library from the CDN -->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- HELLO NAME TYPED TEXT -->
+<script>
+  var va = new Typed('#whatisthis', {
+    strings: [
+    '<strong class="typed-strong" style= "color: black;">What is this?</strong>'
+  ],
+    typeSpeed: 30,
+    startDelay: 250,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|', 
+    preStringTyped: function(arrayPos, self) {
+      if (arrayPos === 0) {
+        document.getElementById('typed-static').style.visibility = 'visible';
+      }
+    },
+    onReset: function(self) {
+      document.getElementById('typed-static').style.visibility = 'hidden';
+    }
+  });
+</script>
+
+
+<script>
+  var va = new Typed('#howrecs', {
+    strings: [
+    '<strong class="typed-strong" style= "color: black;">How are recommendations made?</strong>'
+  ],
+    typeSpeed: 30,
+    startDelay: 250,
+    smartBackspace: false,
+    loop: false,
+    backDelay: 1000, // Delay period after the text is typed out
+    showCursor: true,
+    cursorChar: '|', 
+    preStringTyped: function(arrayPos, self) {
+      if (arrayPos === 0) {
+        document.getElementById('typed-static').style.visibility = 'visible';
+      }
+    },
+    onReset: function(self) {
+      document.getElementById('typed-static').style.visibility = 'hidden';
+    }
+  });
+</script>
+

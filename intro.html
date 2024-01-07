@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro Animation</title>
+  <link rel="stylesheet" href="/assets/main.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #121212; /* #0a192f */
+    }
+    .hexagon-container {
+      width: 300px; /* adjust as needed */
+      height: 300px; /* adjust as needed */
+    }
+    .hide {
+      display: none;
+    }
+  </style>
+  <!-- Put this in the <head> section of your HTML -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hexagon-container">
+    <svg id="hexagon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g>
+        <text id="welcome-to" fill="#01ff12" font-family="'Rubik', sans-serif" font-size="8" font-weight="700" text-anchor="middle" dominant-baseline="central" x="50" y="40" style="opacity: 0">
+          Welcome to
+        </text>
+        <g id="B" transform="translate(30, 30)" fill="#01ff12" style="opacity: 0" font-family="Rubik Doodle Shadow, Raleway, Calibre" font-size="12" font-weight="400" letter-spacing="0">
+          <text text-anchor="middle" dominant-baseline="central" x="19" y="18">
+            <tspan>AiCRE</tspan>
+          </text>
+        </g>
+      <path 
+        stroke="#01ff12" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        d="M 50, 5
+           L 11, 27
+           L 11, 72
+           L 50, 95
+           L 89, 73
+           L 89, 28 z"
+            />
+        </g>
+    </svg>
+  </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const anim = anime.timeline({
+        complete: function() {
+          // Redirect to the home page after the animation
+          window.location.href = '/brian-landru/'; // Use the correct path to your home page
+        }
+      });
+      anim
+        .add({
+          targets: '.hexagon-container #hexagon path',
+          strokeDashoffset: [anime.setDashoffset, 0],
+          easing: 'easeInOutQuart',
+          duration: 700,
+        })
+        .add({
+          targets: '.hexagon-container #hexagon #B',
+          opacity: 1,
+          easing: 'easeInOutQuart',
+          duration: 1800,
+        });
+    });
+  </script>
+</body>
+</html>

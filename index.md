@@ -4,7 +4,7 @@ layout: default
 <style>
   /* General font size for all span elements */
   span {
-    font-size: 30px; /* Change this value as needed */
+    font-size: 25px; /* Change this value as needed */
   }
 
   /* Specific font size for elements with specific IDs
@@ -17,9 +17,20 @@ layout: default
     font-size: 25px; 
      } 
   */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
+#typed-static {
+  animation: fadeIn ease-in 1s; /* Adjust the duration (1s) as needed */
+  animation-delay: 4s; /* Adjust the delay as needed */
+  animation-fill-mode: forwards; /* Keeps the element in the final state of the animation */
+  opacity: 0; /* Start with the element invisible */
+}
 </style>
-<class >
+
+
 <span id="hello"></span>
 <br>
 <br>
@@ -41,8 +52,8 @@ layout: default
     strings: [
     'Hey <strong class="typed-strong" style= "color: black;">Brian,</strong>'
   ],
-    typeSpeed: 5,
-    startDelay: 500,
+    typeSpeed: 30,
+    startDelay: 250,
     smartBackspace: false,
     loop: false,
     backDelay: 1000, // Delay period after the text is typed out
@@ -66,8 +77,8 @@ layout: default
      
        'You have <strong class="typed-strong">44 vacancies</strong> across 25 of your 28 properties.',
     ],
-    typeSpeed: 5,
-    startDelay: 500,
+    typeSpeed: 30,
+    startDelay: 1500,
     smartBackspace: false,
     loop: false,
     backDelay: 1000, // Delay period after the text is typed out
@@ -99,11 +110,11 @@ layout: default
   ],
     typeSpeed: 30,
     backSpeed: 10,
-    startDelay: 500,
+    startDelay: 5000,
     smartBackspace: true,
     loop: true,
     backDelay: 1000, // Delay period after the text is typed out
-    showCursor: true,
+    showCursor: false,
     cursorChar: '|', 
     preStringTyped: function(arrayPos, self) {
       if (arrayPos === 0) {
@@ -120,14 +131,14 @@ layout: default
 <script>
   var letsgo = new Typed('#letsgo', {
   strings: [
-      '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: black;"><strong>Lets get started  </strong></a>'
+      '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: black;"><strong>Lets get started ▶ </strong></a>'
     ],
-    typeSpeed: 5,
-    startDelay: 0,
+    typeSpeed: 30,
+    startDelay: 17000,
     smartBackspace: false,
     loop: false,
     backDelay: 500, // Delay period after the text is typed out
-    showCursor: true,
+    showCursor: false,
     cursorChar: ' ▶', 
     preStringTyped: function(arrayPos, self) {
       if (arrayPos === 0) {
@@ -137,5 +148,31 @@ layout: default
     onReset: function(self) {
       document.getElementById('typed-static').style.visibility = 'hidden';
     }
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const anim = anime.timeline({
+      loop: true,
+      direction: 'alternate',
+    });
+
+    anim
+      .add({
+        targets: '.hexagon-container #hexagon path',
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: 'easeInOutQuart',
+        duration: 2000,
+        delay: function(el, i) { return i * 250 },
+      })
+      .add({
+        targets: '.hexagon-container #hexagon #B',
+        duration: 1000,
+        opacity: 1,
+        easing: 'easeInOutQuart'
+      });
   });
 </script>
