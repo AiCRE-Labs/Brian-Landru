@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: AiCRE
+title: Ai
 # email: brandon@aicrelabs.com
 # description: >- # this means to ignore newlines until "baseurl:"
 #   AiCRE: Autonomous CRE software.
@@ -41,8 +41,6 @@ collections:
 # include:
 #   - _docs
  
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

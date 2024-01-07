@@ -1,35 +1,39 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
   <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
+    <!-- Footer Columns Container -->
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+      
+      <!-- Offerings Column -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">OFFERINGS</h3>
+        <ul class="footer-col-list">
+          <li><a href="{{ '/tenant-selection' | relative_url }}">Tenant Selection</a></li>
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <!-- Impact Studies Column -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">IMPACT STUDIES</h3>
+        <ul class="footer-col-list">
+          <li><a href="{{ '/regency' | relative_url }}">Regency</a></li>
+        </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <!-- Capabilities Column -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">CAPABILITIES</h3>
+        <ul class="footer-col-list">
+          <li><a href="{{ '/ai-ml' | relative_url }}">AI + ML</a></li>
+        </ul>
+      </div>
+
+      <!-- Documents Column -->
+      <div class="footer-col">
+        <h3 class="footer-col-heading">DOCUMENTS</h3>
+        <ul class="footer-col-list">
+          <li><a href="{{ '/docs/faqs' | relative_url }}">FAQs</a></li>
+        </ul>
       </div>
     </div>
-
   </div>
-
 </footer>

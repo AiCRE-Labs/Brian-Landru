@@ -3,6 +3,9 @@
 ---
 @import "minima";
 
+// #01ff12 - bright green
+// #8dd443 - jungle green
+
 h1 {
   text-align: center; /* This centers all 'h1' elements */
 }
@@ -46,7 +49,7 @@ h1 {
 }
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: #8dd443; }
+    50% { border-color: #01ff12; }
   }
 
 .typing-effect {
@@ -55,7 +58,7 @@ h1 {
   font-weight: normal;
   color: #333;
   overflow: hidden;
-  border-right: .15em solid #8dd443;
+  border-right: .15em solid #01ff12;
   white-space: nowrap;
   letter-spacing: .15em;
   display: inline-block;
@@ -64,7 +67,7 @@ h1 {
   max-width: 0;
   animation: 
     typing 2s steps(40, end) forwards,
-    blink-caret .75s step-end infinite;
+    blink-caret 1s step-end infinite;
 }
 
 /* Non-typing centered text */
@@ -76,18 +79,21 @@ h1 {
 }
 
 
-  .underlined-text {
-    text-decoration: underline;
-  }
+.underlined-text {
+  text-decoration: underline;
+}
  
-  a {
-    transition: color 0.3s ease; /* Smooth color transition */
+a {
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transitions for color and transform */
 }
 
 a:hover {
-    color: #8dd443; /* Change to your desired hover color */
-    text-decoration: underline; /* Optional: adds an underline on hover */
+color: #01ff12; /* Change to your desired hover color */
+text-decoration: underline; /* Optional: adds an underline on hover */
+transform: translateY(-2px); /* Moves the link up 2 pixels */
 }
+
+
 
 // .u-email, .links-container, .footer-section, .footer-sections, .u-url
 /* Optional: Additional styling for links */
@@ -104,7 +110,34 @@ a:hover {
     justify-content: center; /* Centers the footer columns horizontally */
     flex-wrap: wrap; /* Allows the footer columns to wrap on smaller screens */
 }
+/* Styles for the footer list items */
+.footer-col-list {
+  list-style: none; /* This removes the bullet points */
+  padding: 0;
+  margin: 0; /* Resets default margin */
+}
 
+.footer-col {
+  flex: 1;
+  margin-bottom: 20px;
+}
+.footer-col-heading {
+  margin-bottom: 10px;
+  font-size: 14px;
+  // text-transform: uppercase;
+  // font-weight: bold;
+}
+.footer-col-list li a {
+  text-decoration: none;
+  color: #645e5ee0; /* Change this color to match your design */
+  font-size: 12px;
+}
+/* Add this rule for hover effect */
+.footer-col-list li a:hover {
+  color: #01ff12; /* Your desired hover color */
+  text-decoration: underline; /* Adds an underline on hover */
+
+}
 .footer-sections {
     display: flex;
     width: 100%; /* Ensures the footer sections take up the full width */
@@ -139,6 +172,14 @@ a:hover {
         padding: 10px; /* Reduces padding on smaller screens */
         align-items: center; /* Ensures content is centered within each section */
     }
+    .logo img {
+      width: 200px; /* Smaller screens get a smaller logo */
+    }
+}
+@media (max-width: 767px) {
+  .logo img {
+    width: 150px; /* Smaller screens get a smaller logo */
+  }
 }
 
 /* Ensure that the overall footer is centered and does not take up too much space */
@@ -233,9 +274,10 @@ a:hover {
 hr {
   border: none; /* Remove the default border */
   height: 1px; /* Set the height of the line */
-  background-color: #8dd443; /* Set the color of the line */
+  background-color: #01ff12; /* Set the color of the line */
   margin: 20px 0; /* Add some space above and below the line */
 }
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -275,3 +317,53 @@ hr {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* Hover effect for page-link class */
+.page-link:hover {
+  color: #01ff12; /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: adds an underline on hover */
+}
+/* Hover effect for page-link class */
+.site-title:hover {
+  color: #01ff12; /* Change to your desired hover color */
+  text-decoration: underline; /* Optional: adds an underline on hover */
+}
+.logo {
+  width: 10%;  /* Adjust the width as needed */
+  height: auto;  /* Keeps the aspect ratio intact */
+}
+
+.site-header .wrapper {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align vertically */
+  // justify-content: space-between; /* Space out logo and navigation */
+}
+
+.site-nav {
+  display: flex; /* Use flexbox for the nav container too */
+  align-items: center; /* Align navigation items vertically */
+  flex-wrap: nowrap; /* Prevent wrapping of items */
+  min-width: 250px; /* Adjust this value as needed */
+}
+/* Add some padding to each link for better spacing and appearance */
+.page-link:not(:last-child) {
+  padding-right: 20px; /* Adjust spacing as needed */
+}
+
+/* Responsive font size adjustment */
+@media (max-width: 768px) {
+  .centered-text {
+    font-size: 1.5em; /* Smaller font size for smaller screens */
+  }
+
+  #typed-static, #capabilities {
+    font-size: 1em; /* Further adjusts the font size for the spans */
+  }
+}
+
+.typed-strong {
+  color: #51a9a8; /* Change the color to green */
+} 
+.typed-weak {
+  color: black; /* Change the color to green */
+} 
