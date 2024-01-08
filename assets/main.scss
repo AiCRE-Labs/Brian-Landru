@@ -173,15 +173,15 @@ transform: translateY(-2px); /* Moves the link up 2 pixels */
         padding: 10px; /* Reduces padding on smaller screens */
         align-items: center; /* Ensures content is centered within each section */
     }
-    .logo img {
-      width: 200px; /* Smaller screens get a smaller logo */
-    }
+    // .logo img {
+    //   width: 200px; /* Smaller screens get a smaller logo */
+    // }
 }
-@media (max-width: 767px) {
-  .logo img {
-    width: 150px; /* Smaller screens get a smaller logo */
-  }
-}
+// @media (max-width: 767px) {
+//   .logo img {
+//     width: 150px; /* Smaller screens get a smaller logo */
+//   }
+// }
 
 /* Ensure that the overall footer is centered and does not take up too much space */
 .site-footer {
@@ -612,4 +612,15 @@ body {
 .typed-strong.arrow-link:hover {
   color: #01ff12; /* Color for hover state */
   text-decoration: underline; /* Adds underline on hover */
+}
+
+// @media (max-width: 480px) {
+//   .logo img {
+//     width: 400px; /* Or any other size that looks good on small screens */
+//   }
+// }
+
+.logo img {
+  width: 400px; /* Set your desired fixed width */
+  height: auto; /* Keeps the aspect ratio intact */
 }
