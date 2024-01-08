@@ -455,9 +455,21 @@ hr {
   }
 }
 */
-.typed-strong {
-  color: gold; /* #51a9a8 Change the color to green */
-} 
+/* Specific styles for links inside .typed-strong class */
+.typed-strong a {
+  color: gold; /* The color you want for your links */
+  text-decoration: none; /* Removes underline from links */
+  transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+.typed-strong a:hover {
+  color: #01ff12; /* Color for hover state */
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+// .typed-strong {
+//   color: gold; /* #51a9a8 Change the color to green */
+// } 
 .typed-weak {
   color: black; /* Change the color to green */
 } 
@@ -589,4 +601,15 @@ body {
   &:hover:after {
     transform: translateX(7px);
   }
+}
+
+/* Make sure .arrow-link inherits color from .typed-strong when both are applied */
+.typed-strong.arrow-link {
+  color: inherit; /* This will make it use the color from .typed-strong */
+}
+
+/* If you want the arrow link to also have the hover effect */
+.typed-strong.arrow-link:hover {
+  color: #01ff12; /* Color for hover state */
+  text-decoration: underline; /* Adds underline on hover */
 }

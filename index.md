@@ -76,8 +76,7 @@ layout: default
 <script>
   var summary = new Typed('#summary', {
     strings: [
-     
-       'You have <strong class="typed-strong">44 vacancies</strong> across 25 of your 28 properties.',
+       'You have <strong class="typed-strong"><a href="/brian-landru/your-vacancies/">44 vacancies</a></strong> across 25 of your 28 properties.',
     ],
     typeSpeed: 30,
     startDelay: 1500,
@@ -86,6 +85,7 @@ layout: default
     backDelay: 1000, // Delay period after the text is typed out
     showCursor: false,
     cursorChar: '|', 
+    contentType: 'html', // 
     preStringTyped: function(arrayPos, self) {
       if (arrayPos === 0) {
         document.getElementById('typed-static').style.visibility = 'visible';
@@ -130,13 +130,17 @@ layout: default
 </script>
 
 <!-- CALL TO ACTION -->
+
 <script>
   var letsgo = new Typed('#letsgo', {
   strings: [
-      '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: black;" class="arrow-link"><strong>Lets get started </strong></a> <a href="/brian-landru/your-vacancies/" class="arrow-link"> </a>'
+      '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: gold;" class="arrow-link"><strong>Lets get started </strong></a> <a href="/brian-landru/your-vacancies/" class="arrow-link"> </a>'
     ],
+  // strings: [
+  //   '<a href="/brian-landru/your-vacancies/" class="typed-strong arrow-link";><strong>Let\'s get started</strong></a>'
+  // ],
     typeSpeed: 30,
-    startDelay: 17000,
+    startDelay: 9000,
     smartBackspace: false,
     loop: false,
     backDelay: 500, // Delay period after the text is typed out
