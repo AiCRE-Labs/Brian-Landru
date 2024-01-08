@@ -43,6 +43,8 @@ layout: default
 <br>
 <span id="letsgo"></span>
 
+
+
 <!-- Load library from the CDN -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
@@ -131,7 +133,7 @@ layout: default
 <script>
   var letsgo = new Typed('#letsgo', {
   strings: [
-      '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: black;"><strong>Lets get started ▶ </strong></a>'
+      '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: black;" class="arrow-link"><strong>Lets get started </strong></a> <a href="/brian-landru/your-vacancies/" class="arrow-link"> </a>'
     ],
     typeSpeed: 30,
     startDelay: 17000,

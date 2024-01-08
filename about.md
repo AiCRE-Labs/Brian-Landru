@@ -17,11 +17,11 @@ permalink: /about/
 
 <script>
   var hello = new Typed('#about', {
-    strings: ['AiCRE maximizes financial stability for tenants,^50\n agents,^50\n and retail CRE owners.^1000\n' + 
-    'We do this by optimizing the most important activity in CRE:^150\n tenant selection. ^1000\n' + 
-    '<br><br> This website is a personalized interface to our tenant selection AI.^500\n It was trained to specialize in tenant selection by learning from the largest database in Retail CRE. ^1000\n<br><br>' + 
+    strings: ['AiCRE makes software to maximize financial stability for tenants,^50\n agents,^50\n and retail CRE owners.^1000\n' + 
+    'This website hosts a tool that does this by optimizing the most important activity in CRE:^150\n tenant selection. ^2000\n' + 
+    '<br><br> It is a portal to our tenant selection AI.^700\n It was made just for you and your properties. It was trained to specialize in tenant selection by learning from the largest database in Retail CRE. ^1000\n<br><br>' + 
     'Use it to help select the right tenants,^150\n assure prospects your vacancy is the best possible space,^150\n close deals faster,^150\n reduce time off market,^150\n minimize turnover,^150\n optimize tenant mix,^150\n and improve Net Operating Income.'],
-    typeSpeed: 40,
+    typeSpeed: 45,
     startDelay: 250,
     smartBackspace: false,
     loop: false,

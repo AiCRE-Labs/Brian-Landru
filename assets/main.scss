@@ -81,6 +81,7 @@ h1 {
 
 .underlined-text {
   text-decoration: underline;
+
 }
  
 a {
@@ -472,3 +473,39 @@ html {
 
 /* Remaining CSS */
 /* ... (Keep the rest of your CSS as is, ensuring responsiveness) */
+
+body {
+  margin: 50px;
+}
+
+.arrow-link {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 20px;
+  -webkit-transition: all .15s ease-in-out;
+  color: #313131;
+  background-color: transparent;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:after {
+    position: relative;
+    bottom: 0.4ex;
+    margin-left: 5px;
+    content: "▶";
+    color: #01ff12;
+    font-family: "FontAwesome";
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transition: all .15s ease-in-out;
+  }
+
+  &:hover {
+    color: #777;
+  }
+
+  &:hover:after {
+    transform: translateX(7px);
+  }
+}
