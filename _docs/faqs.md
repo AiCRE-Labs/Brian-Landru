@@ -40,11 +40,11 @@ The usefulness of a recommendation is measured by what we call **The Score**. **
 
 Each of these sources is broken down so we can measure, optimize, and balance specific aspects of tenant selection that each stakeholder cares about. Let's break them down.
 
-#### Property Profiles 
-*Property profiles* consist of the U.S. state, property GLA, and GLA of the vacant space(s).
+#### Property Profiles
+**Property profiles** consist of the U.S. state, property GLA, and GLA of the vacant space(s).
 
 #### Property Tenant Mix Profiles
-*Property Tenant Mix Profiles* are a combination of proprietary metrics that measure how competitive and diverse the property's tenant mix is.
+** Tenant Mix Profiles** are a combination of proprietary metrics that measure how competitive and diverse the property's tenant mix is.
 
 We created a single metric, called the **Tenant Mix Index (TMI)**, that combines two things that both leasing agents and prospective retailers care about: how competitive the property is and how diverse the property is. The **TMI** reflects a balance between these, and has the ability to emphasize one over the other through weighting. A higher score indicates that the property is strong in both aspects, or exceptionally strong in one if heavily weighted. 100% is the maximum **TMI**, 0% is the minimum. Diversity and competitiveness default to equal weighting when calculating **TMI** for a property. But if customers prefer, Dr. Fill can reverse engineer if your tenant mix strategy values diversity or competitiveness more and adapt recommendations accordingly. 
 
