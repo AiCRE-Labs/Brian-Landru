@@ -351,12 +351,93 @@ hr {
   align-items: center; /* Align vertically */
   // justify-content: space-between; /* Space out logo and navigation */
 }
+// vvv - TESTING - vvv - to fix logo and nav links colliding
+/* Specific styles for the site header */
+.site-header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
-.site-nav {
-  display: flex; /* Use flexbox for the nav container too */
-  align-items: center; /* Align navigation items vertically */
-  flex-wrap: nowrap; /* Prevent wrapping of items */
-  min-width: 250px; /* Adjust this value as needed */
+.site-header .logo {
+  flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+.site-header .site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-header .page-link {
+  margin-right: 20px; /* Space between navigation links */
+  white-space: nowrap; /* Ensure that the link text does not wrap */
+  padding: 0 10px; /* Adjust padding to control the space */
+}
+
+/* Hamburger menu styles, scoped to the site header */
+.site-header .nav-trigger {
+  display: none; /* Hide the checkbox */
+}
+
+.site-header .menu-icon {
+  display: none; /* Hide menu icon by default */
+}
+
+/* Styles for when the menu is triggered, scoped to the site header */
+.site-header .trigger {
+  display: none; /* Hide the trigger container by default */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  /* Show the hamburger menu and hide the navigation links by default, scoped to the site header */
+  .site-header .nav-trigger {
+    display: none; /* Show the checkbox */
+  }
+
+  .site-header .menu-icon {
+    display: block; /* Show menu icon */
+  }
+
+  .site-header .trigger {
+    display: block; /* Show the trigger container */
+  }
+
+  /* Hide the navigation links unless the trigger is checked, scoped to the site header */
+  .site-header .nav-trigger:checked + .menu-icon + .trigger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust the navigation links to be columnar, scoped to the site header */
+  .site-header .page-link {
+    margin-right: 0;
+    margin-bottom: 5px; /* Space between stacked links */
+  }
+}
+
+@media (min-width: 769px) {
+  /* Ensure navigation is always shown on larger screens, scoped to the site header */
+  .site-header .trigger {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .site-header .page-link:last-child {
+    margin-right: 0; /* Remove the margin on the last link to align it properly */
+  }
+}
+
+// ^^^ TESTING ^^^
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .site-nav .nav-link {
+    padding: 0 10px; /* Less padding on smaller screens */
+  }
 }
 /* Add some padding to each link for better spacing and appearance */
 .page-link:not(:last-child) {
