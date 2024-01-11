@@ -1,47 +1,47 @@
 properties:
   Regency_133:
-    site_plan: '..\demo\references\site_plans\133.png'
+    site_plan: '''../demo/references/site_plans/133.png'''
     vacancies:
     - gla: 968
       id: 2036-C
     - gla: 1941
       id: '3522'
   Regency_139:
-    site_plan: '..\demo\references\site_plans\139.png'
+    site_plan: '''../demo/references/site_plans/139.png'''
     vacancies:
     - gla: 17106
       id: '0016'
   Regency_149:
-    site_plan: '..\demo\references\site_plans\149.png'
+    site_plan: '''../demo/references/site_plans/149.png'''
     vacancies:
     - gla: 4400
       id: 0004B
     - gla: 1800
       id: 0009B
   Regency_177:
-    site_plan: '..\demo\references\site_plans\177.png'
+    site_plan: '''../demo/references/site_plans/177.png'''
     vacancies:
     - gla: 2200
       id: '0010'
   Regency_204:
-    site_plan: '..\demo\references\site_plans\204.png'
+    site_plan: '''../demo/references/site_plans/204.png'''
     vacancies:
     - gla: 3032
       id: 0018
   Regency_215:
-    site_plan: '..\demo\references\site_plans\215.png'
+    site_plan: '''../demo/references/site_plans/215.png'''
     vacancies:
     - gla: 3415
       id: '00702'
     - gla: 1610
       id: 00880
   Regency_218:
-    site_plan: '..\demo\references\site_plans\218.png'
+    site_plan: '''../demo/references/site_plans/218.png'''
     vacancies:
     - gla: 2545
       id: '00035'
   Regency_236:
-    site_plan: '..\demo\references\site_plans\236.png'
+    site_plan: '''../demo/references/site_plans/236.png'''
     vacancies:
     - gla: 1000
       id: '005'
@@ -58,12 +58,12 @@ properties:
     - gla: 1384
       id: '035'
   Regency_60513:
-    site_plan: '..\demo\references\site_plans\60513.png'
+    site_plan: '''../demo/references/site_plans/60513.png'''
     vacancies:
     - gla: 2380
       id: '0104'
   Regency_60525:
-    site_plan: '..\demo\references\site_plans\60525.png'
+    site_plan: '''../demo/references/site_plans/60525.png'''
     vacancies:
     - gla: 2512
       id: '0007'
@@ -72,61 +72,61 @@ properties:
     - gla: 30000
       id: '0034'
   Regency_60571:
-    site_plan: '..\demo\references\site_plans\60571.png'
+    site_plan: '''../demo/references/site_plans/60571.png'''
     vacancies:
     - gla: 2663
       id: '102'
     - gla: 789
       id: '226'
   Regency_60744:
-    site_plan: '..\demo\references\site_plans\60744.png'
+    site_plan: '''../demo/references/site_plans/60744.png'''
     vacancies:
     - gla: 3887
       id: F460
   Regency_609:
-    site_plan: '..\demo\references\site_plans\609.png'
+    site_plan: '''../demo/references/site_plans/609.png'''
     vacancies:
     - gla: 4990
       id: '126'
   Regency_60925:
-    site_plan: '..\demo\references\site_plans\60925.png'
+    site_plan: '''../demo/references/site_plans/60925.png'''
     vacancies:
     - gla: 1290
       id: 9815E
   Regency_60942:
-    site_plan: '..\demo\references\site_plans\60942.png'
+    site_plan: '''../demo/references/site_plans/60942.png'''
     vacancies:
     - gla: 3730
       id: '06'
   Regency_61002:
-    site_plan: 'None'
+    site_plan: '''None'''
     vacancies:
     - gla: 2172
       id: '1234'
   Regency_675:
-    site_plan: '..\demo\references\site_plans\675.png'
+    site_plan: '''../demo/references/site_plans/675.png'''
     vacancies:
     - gla: 1260
       id: E119
   Regency_70:
-    site_plan: '..\demo\references\site_plans\70.png'
+    site_plan: '''../demo/references/site_plans/70.png'''
     vacancies:
     - gla: 1400
       id: '0203'
     - gla: 3000
       id: '0204'
   Regency_80018:
-    site_plan: '..\demo\references\site_plans\80018.png'
+    site_plan: '''../demo/references/site_plans/80018.png'''
     vacancies:
     - gla: 1200
       id: '132'
   Regency_80023:
-    site_plan: '..\demo\references\site_plans\80023.png'
+    site_plan: '''../demo/references/site_plans/80023.png'''
     vacancies:
     - gla: 40000
       id: '110'
   Regency_80058:
-    site_plan: '..\demo\references\site_plans\80058.png'
+    site_plan: '''../demo/references/site_plans/80058.png'''
     vacancies:
     - gla: 1944
       id: '006'
@@ -137,12 +137,12 @@ properties:
     - gla: 1909
       id: 018B
   Regency_80122:
-    site_plan: '..\demo\references\site_plans\80122.png'
+    site_plan: '''../demo/references/site_plans/80122.png'''
     vacancies:
     - gla: 825
       id: 300A
   Regency_90030:
-    site_plan: '..\demo\references\site_plans\90030.png'
+    site_plan: '''../demo/references/site_plans/90030.png'''
     vacancies:
     - gla: 1200
       id: '02'
@@ -153,12 +153,12 @@ properties:
     - gla: 4009
       id: '10'
   Regency_90034:
-    site_plan: '..\demo\references\site_plans\90034.png'
+    site_plan: '''../demo/references/site_plans/90034.png'''
     vacancies:
     - gla: 38580
       id: '3330'
   Regency_90057:
-    site_plan: '..\demo\references\site_plans\90057.png'
+    site_plan: '''../demo/references/site_plans/90057.png'''
     vacancies:
     - gla: 3700
       id: '127'

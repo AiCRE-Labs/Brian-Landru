@@ -1,94 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: AiCRE Labs
-# email: brandon@aicrelabs.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#   AiCRE: Autonomous CRE software.
-
-baseurl: "/brian-landru" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  AiCRE-Labs
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-
-collections:
-  docs:
-    output: true
-    permalink: /docs/:path/
-
-# include:
-#   - _docs
- 
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-
-# Responsive Design: Ensure your site is mobile-friendly. Minima is already responsive, but you can further refine the responsive design by customizing the CSS.
-
-# CSS Animations: Use subtle CSS animations for hover effects on buttons, links, and other UI elements. This adds a layer of polish and responsiveness to user interactions.
-
-# JavaScript Interactivity: Implement JavaScript or jQuery for interactive features like modal windows, content sliders, and dynamic loading of content. For instance, you could load blog post summaries and reveal more content with a "Read more" button.
-
-# Web Fonts and Iconography: Utilize modern web fonts and scalable vector icons from libraries like Google Fonts and Font Awesome. They can significantly improve the visual appeal of your site.
-
-# Modern Layouts: Consider using CSS Grid and Flexbox to create modern, sophisticated layouts that adjust to different screen sizes.
-
-# Custom Scrollbars: Style your scrollbars with modern designs that match your site’s theme.
-
-# Parallax Scrolling: Integrate a parallax scrolling effect for images and backgrounds to add depth as users scroll through your site.
-
-# Dark Mode: Implement a toggle for dark mode, which has become a popular feature for reducing eye strain and saving battery life on mobile devices.
-
-# AJAX Loading: Use AJAX to load in content such as blog posts or comments without requiring a page refresh, improving the user experience.
-
-# Engaging Footers: Design an engaging footer with widgets, such as a mini about-me section, latest posts, or social media links.
-
-# Interactive Navigation: Make your navigation bar interactive with dropdowns or a sticky navigation bar that remains at the top as users scroll down.
-
-# Imagery and Videos: Integrate high-quality images or background videos in headers or sections to create a strong visual impact.
-
-# Form Enhancements: If your site includes forms, use modern UI elements for inputs, validation, and interactive feedback.
-
-# Performance Optimization: Ensure that your site loads quickly by optimizing images, using SVGs where possible, and minimizing the use of heavy scripts.
-
-# Progressive Web App (PWA): Turn your site into a PWA, allowing for offline use and a more app-like experience on mobile devices.
+title: AiCRE
+  baseurl: "/brian-landru" 
+  url: "" 
+  github_username:  AiCRE-Labs
+  # Build settings
+  theme: minima
+  plugins:
+    - jekyll-feed
+  collections:
+    docs:
+      output: true
+      permalink: /docs/:path/
