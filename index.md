@@ -119,7 +119,7 @@ var capabilities = new Typed('#capabilities', {
 <script>
 var letsgo = new Typed('#letsgo', {
     strings: [
-        '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: gold;" class="arrow-link"><strong>Let\'s get started </strong></a> <a href="/brian-landru/your-vacancies/" class="arrow-link"> </a>'
+        '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: gold;" class="arrow-link"><strong>Let's get started </strong></a> <a href="/brian-landru/your-vacancies/" class="arrow-link"> </a>'
     ],
     typeSpeed: 30,
     startDelay: 9000,

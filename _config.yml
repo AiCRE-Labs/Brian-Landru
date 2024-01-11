@@ -1,12 +1,14 @@
 title: AiCRE
-  baseurl: "/brian-landru" 
-  url: "" 
-  github_username:  AiCRE-Labs
-  # Build settings
-  theme: minima
-  plugins:
-    - jekyll-feed
-  collections:
-    docs:
-      output: true
-      permalink: /docs/:path/
+baseurl: "/brian-landru"
+url: ""
+github_username: AiCRE-Labs
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
