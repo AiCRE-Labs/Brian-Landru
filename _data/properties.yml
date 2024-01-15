@@ -1,164 +1,157 @@
 properties:
-  Regency_133:
-    site_plan: '''../demo/references/site_plans/133.png'''
+  Regency_159:
+    property_name: Hinsdale Lake Commons
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_159/159.png
     vacancies:
-    - gla: 968
-      id: 2036-C
-    - gla: 1941
-      id: '3522'
-  Regency_139:
-    site_plan: '''../demo/references/site_plans/139.png'''
+    - gla: 4789
+      id: '26'
+    - gla: 5801
+      id: '31'
+    - gla: 1347
+      id: '3'
+  Regency_161:
+    property_name: Prestonbrook Crossing
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_161/161.png
     vacancies:
-    - gla: 17106
-      id: '0016'
-  Regency_149:
-    site_plan: '''../demo/references/site_plans/149.png'''
-    vacancies:
-    - gla: 4400
-      id: 0004B
-    - gla: 1800
-      id: 0009B
-  Regency_177:
-    site_plan: '''../demo/references/site_plans/177.png'''
-    vacancies:
-    - gla: 2200
-      id: '0010'
-  Regency_204:
-    site_plan: '''../demo/references/site_plans/204.png'''
-    vacancies:
-    - gla: 3032
-      id: 0018
-  Regency_215:
-    site_plan: '''../demo/references/site_plans/215.png'''
-    vacancies:
-    - gla: 3415
-      id: '00702'
-    - gla: 1610
-      id: 00880
-  Regency_218:
-    site_plan: '''../demo/references/site_plans/218.png'''
-    vacancies:
-    - gla: 2545
-      id: '00035'
+    - gla: 1050
+      id: '2'
+    - gla: 1050
+      id: '7'
   Regency_236:
-    site_plan: '''../demo/references/site_plans/236.png'''
+    property_name: Westchester Commons
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_236/236.png
     vacancies:
     - gla: 1000
-      id: '005'
+      id: '5'
     - gla: 1000
-      id: 009
+      id: '6'
+    - gla: 1000
+      id: '9'
     - gla: 2400
-      id: '025'
+      id: '25'
     - gla: 1600
-      id: '027'
+      id: '27'
     - gla: 750
-      id: '030'
+      id: '30'
     - gla: 750
-      id: '031'
+      id: '31'
     - gla: 1384
-      id: '035'
+      id: '35'
+  Regency_60023:
+    property_name: Shops on Main
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_60023/60023.png
+    vacancies:
+    - gla: 3393
+      id: '305'
   Regency_60513:
-    site_plan: '''../demo/references/site_plans/60513.png'''
+    property_name: Glen Oak Plaza
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_60513/60513.png
     vacancies:
     - gla: 2380
-      id: '0104'
+      id: '104'
   Regency_60525:
-    site_plan: '''../demo/references/site_plans/60525.png'''
+    property_name: Willow Festival
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_60525/60525.png
     vacancies:
     - gla: 2512
-      id: '0007'
+      id: '7'
+    - gla: 2700
+      id: '24'
     - gla: 1049
-      id: 0029
+      id: '29'
     - gla: 30000
-      id: '0034'
+      id: '34'
   Regency_60571:
-    site_plan: '''../demo/references/site_plans/60571.png'''
+    property_name: Rockridge Center
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_60571/60571.png
     vacancies:
     - gla: 2663
       id: '102'
+    - gla: 1481
+      id: '222'
     - gla: 789
       id: '226'
+    - gla: 1389
+      id: '224'
   Regency_60744:
-    site_plan: '''../demo/references/site_plans/60744.png'''
+    property_name: Mellody Farm
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_60744/60744.png
     vacancies:
     - gla: 3887
       id: F460
+    - gla: 3927
+      id: G1800
   Regency_609:
-    site_plan: '''../demo/references/site_plans/609.png'''
+    property_name: Mockingbird Commons
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_609/609.png
     vacancies:
     - gla: 4990
       id: '126'
-  Regency_60925:
-    site_plan: '''../demo/references/site_plans/60925.png'''
-    vacancies:
-    - gla: 1290
-      id: 9815E
-  Regency_60942:
-    site_plan: '''../demo/references/site_plans/60942.png'''
-    vacancies:
-    - gla: 3730
-      id: '06'
+    - gla: 2050
+      id: '135'
   Regency_61002:
-    site_plan: '''None'''
+    property_name: Old Town Square
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_61002/61002.png
     vacancies:
     - gla: 2172
       id: '1234'
-  Regency_675:
-    site_plan: '''../demo/references/site_plans/675.png'''
+  Regency_613:
+    property_name: Market at Preston Forest
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_613/613.png
     vacancies:
-    - gla: 1260
-      id: E119
-  Regency_70:
-    site_plan: '''../demo/references/site_plans/70.png'''
+    - gla: 2543
+      id: '212'
+    - gla: 827
+      id: '110'
+  Regency_63011:
+    property_name: Bethany Park Place
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_63011/63011.png
     vacancies:
     - gla: 1400
-      id: '0203'
-    - gla: 3000
-      id: '0204'
-  Regency_80018:
-    site_plan: '''../demo/references/site_plans/80018.png'''
+      id: 0001A
+  Regency_63016:
+    property_name: Shiloh Springs
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_63016/63016.png
     vacancies:
-    - gla: 1200
-      id: '132'
-  Regency_80023:
-    site_plan: '''../demo/references/site_plans/80023.png'''
+    - gla: 7000
+      id: '100'
+    - gla: 1380
+      id: '15'
+  Regency_675:
+    property_name: Keller Town Center
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_675/675.png
     vacancies:
-    - gla: 40000
-      id: '110'
-  Regency_80058:
-    site_plan: '''../demo/references/site_plans/80058.png'''
-    vacancies:
-    - gla: 1944
-      id: '006'
-    - gla: 1800
-      id: '014'
-    - gla: 20119
-      id: '017'
-    - gla: 1909
-      id: 018B
-  Regency_80122:
-    site_plan: '''../demo/references/site_plans/80122.png'''
-    vacancies:
-    - gla: 825
-      id: 300A
+    - gla: 1863
+      id: A119
+    - gla: 1260
+      id: E119
+    - gla: 4803
+      id: C101
+    - gla: 1750
+      id: E121
   Regency_90030:
-    site_plan: '''../demo/references/site_plans/90030.png'''
+    property_name: Civic Center Plaza
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_90030/90030.png
     vacancies:
     - gla: 1200
-      id: '02'
+      id: '2'
     - gla: 1800
-      id: '05'
+      id: '5'
     - gla: 1949
-      id: 09
+      id: '9'
     - gla: 4009
       id: '10'
-  Regency_90034:
-    site_plan: '''../demo/references/site_plans/90034.png'''
+  Regency_90056:
+    property_name: Colonial Square
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_90056/90056.png
     vacancies:
-    - gla: 38580
-      id: '3330'
+    - gla: 2000
+      id: '2'
+    - gla: 1176
+      id: 06B
   Regency_90057:
-    site_plan: '''../demo/references/site_plans/90057.png'''
+    property_name: Rockford Road Plaza
+    site_plan: /home/brandondey/Documents/AiCRE/dr_fill/notebooks/test_site/Brian-Landru/assets/images/Regency_90057/90057.png
     vacancies:
-    - gla: 3700
-      id: '127'
+    - gla: 1200
+      id: '107'

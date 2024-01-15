@@ -3,20 +3,20 @@
 ---
 
 <style>
-  /* General font size for all span elements */
-  span {
+/* General font size for all span elements */
+span {
     font-size: 25px; 
-  }
+}
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+0% { opacity: 0; }
+100% { opacity: 1; }
 }
 
 #typed-static {
-  animation: fadeIn ease-in 1s; 
-  animation-delay: 4s; 
-  animation-fill-mode: forwards; 
-  opacity: 0; 
+animation: fadeIn ease-in 1s; 
+animation-delay: 4s; 
+animation-fill-mode: forwards; 
+opacity: 0; 
 }
 </style>
 
@@ -63,7 +63,7 @@ var hello = new Typed('#hello', {
 <script>
 var summary = new Typed('#summary', {
     strings: [
-       'You have <strong class="typed-strong"><a href="/brian-landru/your-vacancies/">44 vacancies</a></strong> across 25 of your 28 properties.',
+    'You have <strong class="typed-strong"><a href="/Brian-Landru/your-vacancies/">44 vacancies</a></strong> across 17 of your 27 properties.',
     ],
     typeSpeed: 30,
     startDelay: 1500,
@@ -119,7 +119,7 @@ var capabilities = new Typed('#capabilities', {
 <script>
 var letsgo = new Typed('#letsgo', {
     strings: [
-        '<a href="/brian-landru/your-vacancies/" class="typed-strong" style="color: gold;" class="arrow-link"><strong>Let\'s get started </strong></a> <a href="/brian-landru/your-vacancies/" class="arrow-link"> </a>'
+        '<a href="/Brian-Landru/your-vacancies/" class="typed-strong" style="color: gold;" class="arrow-link"><strong>Let\'s get started </strong></a> <a href="/Brian-Landru/your-vacancies/" class="arrow-link"> </a>'
     ],
     typeSpeed: 30,
     startDelay: 9000,

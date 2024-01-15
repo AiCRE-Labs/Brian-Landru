@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2024-01-11T13:00:21.719988</dc:date>
+    <dc:date>2024-01-14T20:45:19.679460</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -30,30 +30,51 @@ z
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 127.079436 533.5675 
-L 740.191502 533.5675 
-L 740.191502 56.4435 
-L 127.079436 56.4435 
+    <path d="M 110.048981 533.5675 
+L 740.931956 533.5675 
+L 740.931956 56.4435 
+L 110.048981 56.4435 
 z
 " style="fill: #eaeaf2"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path d="M 203.522093 533.5675 
-L 203.522093 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+      <path d="M 187.742328 533.5675 
+L 187.742328 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
      </g>
      <g id="line2d_2"/>
      <g id="text_1">
-      <!-- -0.8% -->
-      <g style="fill: #262626" transform="translate(190.461156 544.314375) scale(0.1 -0.1)">
+      <!-- -1.0% -->
+      <g style="fill: #262626" transform="translate(174.681391 544.314375) scale(0.1 -0.1)">
        <defs>
         <path id="LiberationSans-2d" d="M 284 1450 
 L 284 1950 
 L 1847 1950 
 L 1847 1450 
 L 284 1450 
+z
+" transform="scale(0.015625)"/>
+        <path id="LiberationSans-31" d="M 488 0 
+L 488 478 
+L 1609 478 
+L 1609 3866 
+L 616 3156 
+L 616 3688 
+L 1656 4403 
+L 2175 4403 
+L 2175 478 
+L 3247 478 
+L 3247 0 
+L 488 0 
+z
+" transform="scale(0.015625)"/>
+        <path id="LiberationSans-2e" d="M 584 0 
+L 584 684 
+L 1194 684 
+L 1194 0 
+L 584 0 
 z
 " transform="scale(0.015625)"/>
         <path id="LiberationSans-30" d="M 3309 2203 
@@ -91,86 +112,6 @@ Q 2000 397 2178 489
 Q 2356 581 2479 792 
 Q 2603 1003 2670 1350 
 Q 2738 1697 2738 2203 
-z
-" transform="scale(0.015625)"/>
-        <path id="LiberationSans-2e" d="M 584 0 
-L 584 684 
-L 1194 684 
-L 1194 0 
-L 584 0 
-z
-" transform="scale(0.015625)"/>
-        <path id="LiberationSans-38" d="M 3281 1228 
-Q 3281 947 3192 711 
-Q 3103 475 2920 303 
-Q 2738 131 2453 34 
-Q 2169 -63 1781 -63 
-Q 1394 -63 1111 34 
-Q 828 131 642 301 
-Q 456 472 367 708 
-Q 278 944 278 1222 
-Q 278 1463 351 1650 
-Q 425 1838 548 1973 
-Q 672 2109 830 2192 
-Q 988 2275 1156 2303 
-L 1156 2316 
-Q 972 2359 826 2456 
-Q 681 2553 582 2689 
-Q 484 2825 432 2990 
-Q 381 3156 381 3341 
-Q 381 3572 470 3776 
-Q 559 3981 734 4136 
-Q 909 4291 1168 4380 
-Q 1428 4469 1769 4469 
-Q 2128 4469 2392 4378 
-Q 2656 4288 2829 4133 
-Q 3003 3978 3087 3772 
-Q 3172 3566 3172 3334 
-Q 3172 3153 3120 2987 
-Q 3069 2822 2970 2686 
-Q 2872 2550 2726 2454 
-Q 2581 2359 2391 2322 
-L 2391 2309 
-Q 2581 2278 2743 2195 
-Q 2906 2113 3025 1977 
-Q 3144 1841 3212 1653 
-Q 3281 1466 3281 1228 
-z
-M 2588 3303 
-Q 2588 3469 2545 3606 
-Q 2503 3744 2406 3842 
-Q 2309 3941 2153 3995 
-Q 1997 4050 1769 4050 
-Q 1547 4050 1394 3995 
-Q 1241 3941 1142 3842 
-Q 1044 3744 1000 3606 
-Q 956 3469 956 3303 
-Q 956 3172 990 3034 
-Q 1025 2897 1115 2784 
-Q 1206 2672 1365 2600 
-Q 1525 2528 1775 2528 
-Q 2041 2528 2202 2600 
-Q 2363 2672 2448 2784 
-Q 2534 2897 2561 3034 
-Q 2588 3172 2588 3303 
-z
-M 2697 1281 
-Q 2697 1441 2653 1589 
-Q 2609 1738 2503 1852 
-Q 2397 1966 2217 2036 
-Q 2038 2106 1769 2106 
-Q 1522 2106 1348 2036 
-Q 1175 1966 1067 1850 
-Q 959 1734 909 1582 
-Q 859 1431 859 1269 
-Q 859 1066 909 898 
-Q 959 731 1068 611 
-Q 1178 491 1356 425 
-Q 1534 359 1788 359 
-Q 2044 359 2219 425 
-Q 2394 491 2500 611 
-Q 2606 731 2651 901 
-Q 2697 1072 2697 1281 
 z
 " transform="scale(0.015625)"/>
         <path id="LiberationSans-25" d="M 5463 1356 
@@ -254,6 +195,99 @@ z
 " transform="scale(0.015625)"/>
        </defs>
        <use xlink:href="#LiberationSans-2d"/>
+       <use xlink:href="#LiberationSans-31" x="33.300781"/>
+       <use xlink:href="#LiberationSans-2e" x="88.916016"/>
+       <use xlink:href="#LiberationSans-30" x="116.699219"/>
+       <use xlink:href="#LiberationSans-25" x="172.314453"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 269.231195 533.5675 
+L 269.231195 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <!-- -0.8% -->
+      <g style="fill: #262626" transform="translate(256.170257 544.314375) scale(0.1 -0.1)">
+       <defs>
+        <path id="LiberationSans-38" d="M 3281 1228 
+Q 3281 947 3192 711 
+Q 3103 475 2920 303 
+Q 2738 131 2453 34 
+Q 2169 -63 1781 -63 
+Q 1394 -63 1111 34 
+Q 828 131 642 301 
+Q 456 472 367 708 
+Q 278 944 278 1222 
+Q 278 1463 351 1650 
+Q 425 1838 548 1973 
+Q 672 2109 830 2192 
+Q 988 2275 1156 2303 
+L 1156 2316 
+Q 972 2359 826 2456 
+Q 681 2553 582 2689 
+Q 484 2825 432 2990 
+Q 381 3156 381 3341 
+Q 381 3572 470 3776 
+Q 559 3981 734 4136 
+Q 909 4291 1168 4380 
+Q 1428 4469 1769 4469 
+Q 2128 4469 2392 4378 
+Q 2656 4288 2829 4133 
+Q 3003 3978 3087 3772 
+Q 3172 3566 3172 3334 
+Q 3172 3153 3120 2987 
+Q 3069 2822 2970 2686 
+Q 2872 2550 2726 2454 
+Q 2581 2359 2391 2322 
+L 2391 2309 
+Q 2581 2278 2743 2195 
+Q 2906 2113 3025 1977 
+Q 3144 1841 3212 1653 
+Q 3281 1466 3281 1228 
+z
+M 2588 3303 
+Q 2588 3469 2545 3606 
+Q 2503 3744 2406 3842 
+Q 2309 3941 2153 3995 
+Q 1997 4050 1769 4050 
+Q 1547 4050 1394 3995 
+Q 1241 3941 1142 3842 
+Q 1044 3744 1000 3606 
+Q 956 3469 956 3303 
+Q 956 3172 990 3034 
+Q 1025 2897 1115 2784 
+Q 1206 2672 1365 2600 
+Q 1525 2528 1775 2528 
+Q 2041 2528 2202 2600 
+Q 2363 2672 2448 2784 
+Q 2534 2897 2561 3034 
+Q 2588 3172 2588 3303 
+z
+M 2697 1281 
+Q 2697 1441 2653 1589 
+Q 2609 1738 2503 1852 
+Q 2397 1966 2217 2036 
+Q 2038 2106 1769 2106 
+Q 1522 2106 1348 2036 
+Q 1175 1966 1067 1850 
+Q 959 1734 909 1582 
+Q 859 1431 859 1269 
+Q 859 1066 909 898 
+Q 959 731 1068 611 
+Q 1178 491 1356 425 
+Q 1534 359 1788 359 
+Q 2044 359 2219 425 
+Q 2394 491 2500 611 
+Q 2606 731 2651 901 
+Q 2697 1072 2697 1281 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#LiberationSans-2d"/>
        <use xlink:href="#LiberationSans-30" x="33.300781"/>
        <use xlink:href="#LiberationSans-2e" x="88.916016"/>
        <use xlink:href="#LiberationSans-38" x="116.699219"/>
@@ -261,16 +295,16 @@ z
       </g>
      </g>
     </g>
-    <g id="xtick_2">
-     <g id="line2d_3">
-      <path d="M 291.754429 533.5675 
-L 291.754429 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 350.720062 533.5675 
+L 350.720062 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
      </g>
-     <g id="line2d_4"/>
-     <g id="text_2">
+     <g id="line2d_6"/>
+     <g id="text_3">
       <!-- -0.6% -->
-      <g style="fill: #262626" transform="translate(278.693491 544.314375) scale(0.1 -0.1)">
+      <g style="fill: #262626" transform="translate(337.659124 544.314375) scale(0.1 -0.1)">
        <defs>
         <path id="LiberationSans-36" d="M 3278 1441 
 Q 3278 1109 3186 832 
@@ -331,16 +365,16 @@ z
       </g>
      </g>
     </g>
-    <g id="xtick_3">
-     <g id="line2d_5">
-      <path d="M 379.986765 533.5675 
-L 379.986765 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 432.208929 533.5675 
+L 432.208929 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
      </g>
-     <g id="line2d_6"/>
-     <g id="text_3">
+     <g id="line2d_8"/>
+     <g id="text_4">
       <!-- -0.4% -->
-      <g style="fill: #262626" transform="translate(366.925827 544.314375) scale(0.1 -0.1)">
+      <g style="fill: #262626" transform="translate(419.147991 544.314375) scale(0.1 -0.1)">
        <defs>
         <path id="LiberationSans-34" d="M 2753 997 
 L 2753 0 
@@ -378,16 +412,16 @@ z
       </g>
      </g>
     </g>
-    <g id="xtick_4">
-     <g id="line2d_7">
-      <path d="M 468.2191 533.5675 
-L 468.2191 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 513.697796 533.5675 
+L 513.697796 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
      </g>
-     <g id="line2d_8"/>
-     <g id="text_4">
+     <g id="line2d_10"/>
+     <g id="text_5">
       <!-- -0.2% -->
-      <g style="fill: #262626" transform="translate(455.158163 544.314375) scale(0.1 -0.1)">
+      <g style="fill: #262626" transform="translate(500.636858 544.314375) scale(0.1 -0.1)">
        <defs>
         <path id="LiberationSans-32" d="M 322 0 
 L 322 397 
@@ -436,16 +470,16 @@ z
       </g>
      </g>
     </g>
-    <g id="xtick_5">
-     <g id="line2d_9">
-      <path d="M 556.451436 533.5675 
-L 556.451436 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 595.186663 533.5675 
+L 595.186663 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
      </g>
-     <g id="line2d_10"/>
-     <g id="text_5">
+     <g id="line2d_12"/>
+     <g id="text_6">
       <!-- 0.0% -->
-      <g style="fill: #262626" transform="translate(545.055342 544.314375) scale(0.1 -0.1)">
+      <g style="fill: #262626" transform="translate(583.790569 544.314375) scale(0.1 -0.1)">
        <use xlink:href="#LiberationSans-30"/>
        <use xlink:href="#LiberationSans-2e" x="55.615234"/>
        <use xlink:href="#LiberationSans-30" x="83.398438"/>
@@ -453,16 +487,16 @@ L 556.451436 56.4435
       </g>
      </g>
     </g>
-    <g id="xtick_6">
-     <g id="line2d_11">
-      <path d="M 644.683772 533.5675 
-L 644.683772 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 676.67553 533.5675 
+L 676.67553 56.4435 
+" clip-path="url(#pfc78cafe28)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
      </g>
-     <g id="line2d_12"/>
-     <g id="text_6">
+     <g id="line2d_14"/>
+     <g id="text_7">
       <!-- 0.2% -->
-      <g style="fill: #262626" transform="translate(633.287678 544.314375) scale(0.1 -0.1)">
+      <g style="fill: #262626" transform="translate(665.279436 544.314375) scale(0.1 -0.1)">
        <use xlink:href="#LiberationSans-30"/>
        <use xlink:href="#LiberationSans-2e" x="55.615234"/>
        <use xlink:href="#LiberationSans-32" x="83.398438"/>
@@ -470,26 +504,9 @@ L 644.683772 56.4435
       </g>
      </g>
     </g>
-    <g id="xtick_7">
-     <g id="line2d_13">
-      <path d="M 732.916107 533.5675 
-L 732.916107 56.4435 
-" clip-path="url(#pdfa9b4acb3)" style="fill: none; stroke: #808080; stroke-width: 0.2; stroke-linecap: round"/>
-     </g>
-     <g id="line2d_14"/>
-     <g id="text_7">
-      <!-- 0.4% -->
-      <g style="fill: #262626" transform="translate(721.520014 544.314375) scale(0.1 -0.1)">
-       <use xlink:href="#LiberationSans-30"/>
-       <use xlink:href="#LiberationSans-2e" x="55.615234"/>
-       <use xlink:href="#LiberationSans-34" x="83.398438"/>
-       <use xlink:href="#LiberationSans-25" x="139.013672"/>
-      </g>
-     </g>
-    </g>
     <g id="text_8">
      <!-- How Much Each Co-Tenant Influences The Score -->
-     <g style="fill: #262626" transform="translate(280.471094 560.535) scale(0.14 -0.14)">
+     <g style="fill: #262626" transform="translate(272.326094 560.535) scale(0.14 -0.14)">
       <defs>
        <path id="LiberationSans-48" d="M 3503 0 
 L 3503 2041 
@@ -1145,165 +1162,165 @@ z
    </g>
    <g id="matplotlib.axis_2"/>
    <g id="patch_3">
-    <path d="M 556.451436 78.130955 
-L 712.322772 78.130955 
-L 712.322772 96.588363 
-L 556.451436 96.588363 
+    <path d="M 595.186663 78.130955 
+L 712.255457 78.130955 
+L 712.255457 96.588363 
+L 595.186663 96.588363 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #006837"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #006837"/>
    </g>
    <g id="patch_4">
-    <path d="M 556.451436 101.202715 
-L 702.129115 101.202715 
-L 702.129115 119.660123 
-L 556.451436 119.660123 
+    <path d="M 595.186663 101.202715 
+L 664.023343 101.202715 
+L 664.023343 119.660123 
+L 595.186663 119.660123 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #04703b"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #15904c"/>
    </g>
    <g id="patch_5">
-    <path d="M 556.451436 124.274475 
-L 631.632749 124.274475 
-L 631.632749 142.731883 
-L 556.451436 142.731883 
+    <path d="M 595.186663 124.274475 
+L 635.56905 124.274475 
+L 635.56905 142.731883 
+L 595.186663 142.731883 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #3ca959"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #33a456"/>
    </g>
    <g id="patch_6">
-    <path d="M 556.451436 147.346235 
-L 628.014832 147.346235 
-L 628.014832 165.803643 
-L 556.451436 165.803643 
+    <path d="M 595.186663 147.346235 
+L 615.637171 147.346235 
+L 615.637171 165.803643 
+L 595.186663 165.803643 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #3faa59"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #4eb15d"/>
    </g>
    <g id="patch_7">
-    <path d="M 556.451436 170.417995 
-L 581.93273 170.417995 
-L 581.93273 188.875403 
-L 556.451436 188.875403 
+    <path d="M 595.186663 170.417995 
+L 595.186663 170.417995 
+L 595.186663 188.875403 
+L 595.186663 188.875403 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #7ac665"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #69be63"/>
    </g>
    <g id="patch_8">
-    <path d="M 556.451436 193.489755 
-L 561.158734 193.489755 
-L 561.158734 211.947163 
-L 556.451436 211.947163 
+    <path d="M 595.186663 193.489755 
+L 590.964261 193.489755 
+L 590.964261 211.947163 
+L 595.186663 211.947163 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #93d168"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #6ec064"/>
    </g>
    <g id="patch_9">
-    <path d="M 556.451436 216.561515 
-L 560.293072 216.561515 
-L 560.293072 235.018924 
-L 556.451436 235.018924 
+    <path d="M 595.186663 216.561515 
+L 588.341848 216.561515 
+L 588.341848 235.018924 
+L 595.186663 235.018924 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #93d168"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #70c164"/>
    </g>
    <g id="patch_10">
-    <path d="M 556.451436 239.633276 
-L 558.359871 239.633276 
-L 558.359871 258.090684 
-L 556.451436 258.090684 
+    <path d="M 595.186663 239.633276 
+L 577.045314 239.633276 
+L 577.045314 258.090684 
+L 595.186663 258.090684 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #96d268"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #7dc765"/>
    </g>
    <g id="patch_11">
-    <path d="M 556.451436 262.705036 
-L 556.451436 262.705036 
-L 556.451436 281.162444 
-L 556.451436 281.162444 
+    <path d="M 595.186663 262.705036 
+L 569.869592 262.705036 
+L 569.869592 281.162444 
+L 595.186663 281.162444 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #98d368"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #84ca66"/>
    </g>
    <g id="patch_12">
-    <path d="M 556.451436 285.776796 
-L 554.308974 285.776796 
-L 554.308974 304.234204 
-L 556.451436 304.234204 
+    <path d="M 595.186663 285.776796 
+L 567.958327 285.776796 
+L 567.958327 304.234204 
+L 595.186663 304.234204 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #9bd469"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #87cb67"/>
    </g>
    <g id="patch_13">
-    <path d="M 556.451436 308.848556 
-L 540.773054 308.848556 
-L 540.773054 327.305964 
-L 556.451436 327.305964 
+    <path d="M 595.186663 308.848556 
+L 542.638179 308.848556 
+L 542.638179 327.305964 
+L 595.186663 327.305964 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #a9da6c"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #a2d76a"/>
    </g>
    <g id="patch_14">
-    <path d="M 556.451436 331.920316 
-L 529.270646 331.920316 
-L 529.270646 350.377724 
-L 556.451436 350.377724 
+    <path d="M 595.186663 331.920316 
+L 485.021393 331.920316 
+L 485.021393 350.377724 
+L 595.186663 350.377724 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #b5df74"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #d7ee8a"/>
    </g>
    <g id="patch_15">
-    <path d="M 556.451436 354.992076 
-L 483.289961 354.992076 
-L 483.289961 373.449485 
-L 556.451436 373.449485 
+    <path d="M 595.186663 354.992076 
+L 475.308033 354.992076 
+L 475.308033 373.449485 
+L 595.186663 373.449485 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #ddf191"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #ddf191"/>
    </g>
    <g id="patch_16">
-    <path d="M 556.451436 378.063837 
-L 456.121955 378.063837 
-L 456.121955 396.521245 
-L 556.451436 396.521245 
+    <path d="M 595.186663 378.063837 
+L 463.989099 378.063837 
+L 463.989099 396.521245 
+L 595.186663 396.521245 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #eff8aa"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #e5f49b"/>
    </g>
    <g id="patch_17">
-    <path d="M 556.451436 401.135597 
-L 453.799761 401.135597 
-L 453.799761 419.593005 
-L 556.451436 419.593005 
+    <path d="M 595.186663 401.135597 
+L 433.483366 401.135597 
+L 433.483366 419.593005 
+L 595.186663 419.593005 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #f1f9ac"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #fafdb8"/>
    </g>
    <g id="patch_18">
-    <path d="M 556.451436 424.207357 
-L 414.911073 424.207357 
-L 414.911073 442.664765 
-L 556.451436 442.664765 
+    <path d="M 595.186663 424.207357 
+L 289.306144 424.207357 
+L 289.306144 442.664765 
+L 595.186663 442.664765 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #fff5ae"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #fa9656"/>
    </g>
    <g id="patch_19">
-    <path d="M 556.451436 447.279117 
-L 391.064777 447.279117 
-L 391.064777 465.736525 
-L 556.451436 465.736525 
+    <path d="M 595.186663 447.279117 
+L 277.043646 447.279117 
+L 277.043646 465.736525 
+L 595.186663 465.736525 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #fee797"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #f8864f"/>
    </g>
    <g id="patch_20">
-    <path d="M 556.451436 470.350877 
-L 238.0181 470.350877 
-L 238.0181 488.808285 
-L 556.451436 488.808285 
+    <path d="M 595.186663 470.350877 
+L 214.401128 470.350877 
+L 214.401128 488.808285 
+L 595.186663 488.808285 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #e54e35"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #e0422f"/>
    </g>
    <g id="patch_21">
-    <path d="M 556.451436 493.422637 
-L 154.948166 493.422637 
-L 154.948166 511.880045 
-L 556.451436 511.880045 
+    <path d="M 595.186663 493.422637 
+L 138.72548 493.422637 
+L 138.72548 511.880045 
+L 595.186663 511.880045 
 z
-" clip-path="url(#pdfa9b4acb3)" style="fill: #a50026"/>
+" clip-path="url(#pfc78cafe28)" style="fill: #a50026"/>
    </g>
    <g id="patch_22">
-    <path d="M 127.079436 533.5675 
-L 740.191502 533.5675 
+    <path d="M 110.048981 533.5675 
+L 740.931956 533.5675 
 " style="fill: none"/>
    </g>
    <g id="text_9">
     <!-- Supermarkets and Other Grocery Stores -->
-    <g transform="translate(712.322772 89.428409) scale(0.08 -0.08)">
+    <g transform="translate(712.255457 89.428409) scale(0.08 -0.08)">
      <defs>
       <path id="LiberationSans-70" d="M 3291 1706 
 Q 3291 1322 3228 997 
@@ -1620,9 +1637,18 @@ z
     </g>
    </g>
    <g id="text_10">
-    <!-- Miscellaneous Store Retailers -->
-    <g transform="translate(702.129115 112.500169) scale(0.08 -0.08)">
+    <!-- Limited-Service Restaurants Fast casual restaurants -->
+    <g transform="translate(664.023343 112.500169) scale(0.08 -0.08)">
      <defs>
+      <path id="LiberationSans-4c" d="M 525 0 
+L 525 4403 
+L 1122 4403 
+L 1122 488 
+L 3347 488 
+L 3347 0 
+L 525 0 
+z
+" transform="scale(0.015625)"/>
       <path id="LiberationSans-69" d="M 428 4100 
 L 428 4638 
 L 991 4638 
@@ -1634,6 +1660,24 @@ L 428 3381
 L 991 3381 
 L 991 0 
 L 428 0 
+z
+" transform="scale(0.015625)"/>
+      <path id="LiberationSans-76" d="M 1916 0 
+L 1250 0 
+L 22 3381 
+L 622 3381 
+L 1366 1181 
+Q 1388 1113 1417 1014 
+Q 1447 916 1478 809 
+Q 1509 703 1536 604 
+Q 1563 506 1581 441 
+Q 1600 506 1629 604 
+Q 1659 703 1690 806 
+Q 1722 909 1755 1007 
+Q 1788 1106 1813 1175 
+L 2581 3381 
+L 3178 3381 
+L 1916 0 
 z
 " transform="scale(0.015625)"/>
       <path id="LiberationSans-52" d="M 3638 0 
@@ -1666,69 +1710,6 @@ Q 2819 2300 3006 2364
 Q 3194 2428 3314 2540 
 Q 3434 2653 3492 2806 
 Q 3550 2959 3550 3138 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#LiberationSans-4d"/>
-     <use xlink:href="#LiberationSans-69" x="83.300781"/>
-     <use xlink:href="#LiberationSans-73" x="105.517578"/>
-     <use xlink:href="#LiberationSans-63" x="155.517578"/>
-     <use xlink:href="#LiberationSans-65" x="205.517578"/>
-     <use xlink:href="#LiberationSans-6c" x="261.132812"/>
-     <use xlink:href="#LiberationSans-6c" x="283.349609"/>
-     <use xlink:href="#LiberationSans-61" x="305.566406"/>
-     <use xlink:href="#LiberationSans-6e" x="361.181641"/>
-     <use xlink:href="#LiberationSans-65" x="416.796875"/>
-     <use xlink:href="#LiberationSans-6f" x="472.412109"/>
-     <use xlink:href="#LiberationSans-75" x="528.027344"/>
-     <use xlink:href="#LiberationSans-73" x="583.642578"/>
-     <use xlink:href="#LiberationSans-20" x="633.642578"/>
-     <use xlink:href="#LiberationSans-53" x="661.425781"/>
-     <use xlink:href="#LiberationSans-74" x="728.125"/>
-     <use xlink:href="#LiberationSans-6f" x="755.908203"/>
-     <use xlink:href="#LiberationSans-72" x="811.523438"/>
-     <use xlink:href="#LiberationSans-65" x="844.824219"/>
-     <use xlink:href="#LiberationSans-20" x="900.439453"/>
-     <use xlink:href="#LiberationSans-52" x="928.222656"/>
-     <use xlink:href="#LiberationSans-65" x="1000.439453"/>
-     <use xlink:href="#LiberationSans-74" x="1056.054688"/>
-     <use xlink:href="#LiberationSans-61" x="1083.837891"/>
-     <use xlink:href="#LiberationSans-69" x="1139.453125"/>
-     <use xlink:href="#LiberationSans-6c" x="1161.669922"/>
-     <use xlink:href="#LiberationSans-65" x="1183.886719"/>
-     <use xlink:href="#LiberationSans-72" x="1239.501953"/>
-     <use xlink:href="#LiberationSans-73" x="1272.802734"/>
-    </g>
-   </g>
-   <g id="text_11">
-    <!-- Limited-Service Restaurants Fast casual restaurants -->
-    <g transform="translate(631.632749 135.571929) scale(0.08 -0.08)">
-     <defs>
-      <path id="LiberationSans-4c" d="M 525 0 
-L 525 4403 
-L 1122 4403 
-L 1122 488 
-L 3347 488 
-L 3347 0 
-L 525 0 
-z
-" transform="scale(0.015625)"/>
-      <path id="LiberationSans-76" d="M 1916 0 
-L 1250 0 
-L 22 3381 
-L 622 3381 
-L 1366 1181 
-Q 1388 1113 1417 1014 
-Q 1447 916 1478 809 
-Q 1509 703 1536 604 
-Q 1563 506 1581 441 
-Q 1600 506 1629 604 
-Q 1659 703 1690 806 
-Q 1722 909 1755 1007 
-Q 1788 1106 1813 1175 
-L 2581 3381 
-L 3178 3381 
-L 1916 0 
 z
 " transform="scale(0.015625)"/>
       <path id="LiberationSans-46" d="M 1122 3916 
@@ -1798,152 +1779,9 @@ z
      <use xlink:href="#LiberationSans-73" x="2273.193359"/>
     </g>
    </g>
-   <g id="text_12">
-    <!-- Telecommunications -->
-    <g transform="translate(628.014832 158.643689) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-54"/>
-     <use xlink:href="#LiberationSans-65" x="49.958984"/>
-     <use xlink:href="#LiberationSans-6c" x="105.574219"/>
-     <use xlink:href="#LiberationSans-65" x="127.791016"/>
-     <use xlink:href="#LiberationSans-63" x="183.40625"/>
-     <use xlink:href="#LiberationSans-6f" x="233.40625"/>
-     <use xlink:href="#LiberationSans-6d" x="289.021484"/>
-     <use xlink:href="#LiberationSans-6d" x="372.322266"/>
-     <use xlink:href="#LiberationSans-75" x="455.623047"/>
-     <use xlink:href="#LiberationSans-6e" x="511.238281"/>
-     <use xlink:href="#LiberationSans-69" x="566.853516"/>
-     <use xlink:href="#LiberationSans-63" x="589.070312"/>
-     <use xlink:href="#LiberationSans-61" x="639.070312"/>
-     <use xlink:href="#LiberationSans-74" x="694.685547"/>
-     <use xlink:href="#LiberationSans-69" x="722.46875"/>
-     <use xlink:href="#LiberationSans-6f" x="744.685547"/>
-     <use xlink:href="#LiberationSans-6e" x="800.300781"/>
-     <use xlink:href="#LiberationSans-73" x="855.916016"/>
-    </g>
-   </g>
-   <g id="text_13">
-    <!-- Health Care and Social Assistance -->
-    <g transform="translate(581.93273 181.715449) scale(0.08 -0.08)">
-     <defs>
-      <path id="LiberationSans-41" d="M 3647 0 
-L 3144 1288 
-L 1138 1288 
-L 631 0 
-L 13 0 
-L 1809 4403 
-L 2488 4403 
-L 4256 0 
-L 3647 0 
-z
-M 2400 3206 
-Q 2350 3331 2304 3459 
-Q 2259 3588 2225 3692 
-Q 2191 3797 2167 3867 
-Q 2144 3938 2141 3953 
-Q 2134 3938 2112 3866 
-Q 2091 3794 2055 3687 
-Q 2019 3581 1973 3453 
-Q 1928 3325 1881 3200 
-L 1319 1753 
-L 2966 1753 
-L 2400 3206 
-z
-" transform="scale(0.015625)"/>
-     </defs>
-     <use xlink:href="#LiberationSans-48"/>
-     <use xlink:href="#LiberationSans-65" x="72.216797"/>
-     <use xlink:href="#LiberationSans-61" x="127.832031"/>
-     <use xlink:href="#LiberationSans-6c" x="183.447266"/>
-     <use xlink:href="#LiberationSans-74" x="205.664062"/>
-     <use xlink:href="#LiberationSans-68" x="233.447266"/>
-     <use xlink:href="#LiberationSans-20" x="289.0625"/>
-     <use xlink:href="#LiberationSans-43" x="316.845703"/>
-     <use xlink:href="#LiberationSans-61" x="389.0625"/>
-     <use xlink:href="#LiberationSans-72" x="444.677734"/>
-     <use xlink:href="#LiberationSans-65" x="477.978516"/>
-     <use xlink:href="#LiberationSans-20" x="533.59375"/>
-     <use xlink:href="#LiberationSans-61" x="561.376953"/>
-     <use xlink:href="#LiberationSans-6e" x="616.992188"/>
-     <use xlink:href="#LiberationSans-64" x="672.607422"/>
-     <use xlink:href="#LiberationSans-20" x="728.222656"/>
-     <use xlink:href="#LiberationSans-53" x="756.005859"/>
-     <use xlink:href="#LiberationSans-6f" x="822.705078"/>
-     <use xlink:href="#LiberationSans-63" x="878.320312"/>
-     <use xlink:href="#LiberationSans-69" x="928.320312"/>
-     <use xlink:href="#LiberationSans-61" x="950.537109"/>
-     <use xlink:href="#LiberationSans-6c" x="1006.152344"/>
-     <use xlink:href="#LiberationSans-20" x="1028.369141"/>
-     <use xlink:href="#LiberationSans-41" x="1050.652344"/>
-     <use xlink:href="#LiberationSans-73" x="1117.351562"/>
-     <use xlink:href="#LiberationSans-73" x="1167.351562"/>
-     <use xlink:href="#LiberationSans-69" x="1217.351562"/>
-     <use xlink:href="#LiberationSans-73" x="1239.568359"/>
-     <use xlink:href="#LiberationSans-74" x="1289.568359"/>
-     <use xlink:href="#LiberationSans-61" x="1317.351562"/>
-     <use xlink:href="#LiberationSans-6e" x="1372.966797"/>
-     <use xlink:href="#LiberationSans-63" x="1428.582031"/>
-     <use xlink:href="#LiberationSans-65" x="1478.582031"/>
-    </g>
-   </g>
-   <g id="text_14">
-    <!-- Limited-Service Restaurants Fast casual restaurants -->
-    <g transform="translate(561.158734 204.787209) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-4c"/>
-     <use xlink:href="#LiberationSans-69" x="55.615234"/>
-     <use xlink:href="#LiberationSans-6d" x="77.832031"/>
-     <use xlink:href="#LiberationSans-69" x="161.132812"/>
-     <use xlink:href="#LiberationSans-74" x="183.349609"/>
-     <use xlink:href="#LiberationSans-65" x="211.132812"/>
-     <use xlink:href="#LiberationSans-64" x="266.748047"/>
-     <use xlink:href="#LiberationSans-2d" x="322.363281"/>
-     <use xlink:href="#LiberationSans-53" x="355.664062"/>
-     <use xlink:href="#LiberationSans-65" x="422.363281"/>
-     <use xlink:href="#LiberationSans-72" x="477.978516"/>
-     <use xlink:href="#LiberationSans-76" x="511.279297"/>
-     <use xlink:href="#LiberationSans-69" x="561.279297"/>
-     <use xlink:href="#LiberationSans-63" x="583.496094"/>
-     <use xlink:href="#LiberationSans-65" x="633.496094"/>
-     <use xlink:href="#LiberationSans-20" x="689.111328"/>
-     <use xlink:href="#LiberationSans-52" x="716.894531"/>
-     <use xlink:href="#LiberationSans-65" x="789.111328"/>
-     <use xlink:href="#LiberationSans-73" x="844.726562"/>
-     <use xlink:href="#LiberationSans-74" x="894.726562"/>
-     <use xlink:href="#LiberationSans-61" x="922.509766"/>
-     <use xlink:href="#LiberationSans-75" x="978.125"/>
-     <use xlink:href="#LiberationSans-72" x="1033.740234"/>
-     <use xlink:href="#LiberationSans-61" x="1067.041016"/>
-     <use xlink:href="#LiberationSans-6e" x="1122.65625"/>
-     <use xlink:href="#LiberationSans-74" x="1178.271484"/>
-     <use xlink:href="#LiberationSans-73" x="1206.054688"/>
-     <use xlink:href="#LiberationSans-20" x="1256.054688"/>
-     <use xlink:href="#LiberationSans-46" x="1283.837891"/>
-     <use xlink:href="#LiberationSans-61" x="1344.921875"/>
-     <use xlink:href="#LiberationSans-73" x="1400.537109"/>
-     <use xlink:href="#LiberationSans-74" x="1450.537109"/>
-     <use xlink:href="#LiberationSans-20" x="1478.320312"/>
-     <use xlink:href="#LiberationSans-63" x="1506.103516"/>
-     <use xlink:href="#LiberationSans-61" x="1556.103516"/>
-     <use xlink:href="#LiberationSans-73" x="1611.71875"/>
-     <use xlink:href="#LiberationSans-75" x="1661.71875"/>
-     <use xlink:href="#LiberationSans-61" x="1717.333984"/>
-     <use xlink:href="#LiberationSans-6c" x="1772.949219"/>
-     <use xlink:href="#LiberationSans-20" x="1795.166016"/>
-     <use xlink:href="#LiberationSans-72" x="1822.949219"/>
-     <use xlink:href="#LiberationSans-65" x="1856.25"/>
-     <use xlink:href="#LiberationSans-73" x="1911.865234"/>
-     <use xlink:href="#LiberationSans-74" x="1961.865234"/>
-     <use xlink:href="#LiberationSans-61" x="1989.648438"/>
-     <use xlink:href="#LiberationSans-75" x="2045.263672"/>
-     <use xlink:href="#LiberationSans-72" x="2100.878906"/>
-     <use xlink:href="#LiberationSans-61" x="2134.179688"/>
-     <use xlink:href="#LiberationSans-6e" x="2189.794922"/>
-     <use xlink:href="#LiberationSans-74" x="2245.410156"/>
-     <use xlink:href="#LiberationSans-73" x="2273.193359"/>
-    </g>
-   </g>
-   <g id="text_15">
+   <g id="text_11">
     <!-- Unknown -->
-    <g transform="translate(560.293072 227.85897) scale(0.08 -0.08)">
+    <g transform="translate(635.56905 135.571929) scale(0.08 -0.08)">
      <defs>
       <path id="LiberationSans-55" d="M 2284 -63 
 Q 1922 -63 1597 34 
@@ -1980,36 +1818,36 @@ z
      <use xlink:href="#LiberationSans-6e" x="361.279297"/>
     </g>
    </g>
-   <g id="text_16">
-    <!-- Unknown -->
-    <g transform="translate(558.359871 250.93073) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-55"/>
-     <use xlink:href="#LiberationSans-6e" x="72.216797"/>
-     <use xlink:href="#LiberationSans-6b" x="127.832031"/>
-     <use xlink:href="#LiberationSans-6e" x="177.832031"/>
-     <use xlink:href="#LiberationSans-6f" x="233.447266"/>
-     <use xlink:href="#LiberationSans-77" x="289.0625"/>
-     <use xlink:href="#LiberationSans-6e" x="361.279297"/>
+   <g id="text_12">
+    <!-- Finance and Insurance -->
+    <g transform="translate(615.637171 158.643689) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-46"/>
+     <use xlink:href="#LiberationSans-69" x="61.083984"/>
+     <use xlink:href="#LiberationSans-6e" x="83.300781"/>
+     <use xlink:href="#LiberationSans-61" x="138.916016"/>
+     <use xlink:href="#LiberationSans-6e" x="194.53125"/>
+     <use xlink:href="#LiberationSans-63" x="250.146484"/>
+     <use xlink:href="#LiberationSans-65" x="300.146484"/>
+     <use xlink:href="#LiberationSans-20" x="355.761719"/>
+     <use xlink:href="#LiberationSans-61" x="383.544922"/>
+     <use xlink:href="#LiberationSans-6e" x="439.160156"/>
+     <use xlink:href="#LiberationSans-64" x="494.775391"/>
+     <use xlink:href="#LiberationSans-20" x="550.390625"/>
+     <use xlink:href="#LiberationSans-49" x="578.173828"/>
+     <use xlink:href="#LiberationSans-6e" x="605.957031"/>
+     <use xlink:href="#LiberationSans-73" x="661.572266"/>
+     <use xlink:href="#LiberationSans-75" x="711.572266"/>
+     <use xlink:href="#LiberationSans-72" x="767.1875"/>
+     <use xlink:href="#LiberationSans-61" x="800.488281"/>
+     <use xlink:href="#LiberationSans-6e" x="856.103516"/>
+     <use xlink:href="#LiberationSans-63" x="911.71875"/>
+     <use xlink:href="#LiberationSans-65" x="961.71875"/>
     </g>
    </g>
-   <g id="text_17">
+   <g id="text_13">
     <!-- Tenant19 -->
-    <g transform="translate(523.540186 274.00249) scale(0.08 -0.08)">
+    <g transform="translate(562.275413 181.715449) scale(0.08 -0.08)">
      <defs>
-      <path id="LiberationSans-31" d="M 488 0 
-L 488 478 
-L 1609 478 
-L 1609 3866 
-L 616 3156 
-L 616 3688 
-L 1656 4403 
-L 2175 4403 
-L 2175 478 
-L 3247 478 
-L 3247 0 
-L 488 0 
-z
-" transform="scale(0.015625)"/>
       <path id="LiberationSans-39" d="M 3256 2291 
 Q 3256 1703 3145 1261 
 Q 3034 819 2828 525 
@@ -2071,35 +1909,125 @@ z
      <use xlink:href="#LiberationSans-39" x="355.818359"/>
     </g>
    </g>
-   <g id="text_18">
-    <!-- Finance and Insurance -->
-    <g transform="translate(472.928974 297.07425) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-46"/>
-     <use xlink:href="#LiberationSans-69" x="61.083984"/>
-     <use xlink:href="#LiberationSans-6e" x="83.300781"/>
-     <use xlink:href="#LiberationSans-61" x="138.916016"/>
-     <use xlink:href="#LiberationSans-6e" x="194.53125"/>
-     <use xlink:href="#LiberationSans-63" x="250.146484"/>
-     <use xlink:href="#LiberationSans-65" x="300.146484"/>
-     <use xlink:href="#LiberationSans-20" x="355.761719"/>
-     <use xlink:href="#LiberationSans-61" x="383.544922"/>
-     <use xlink:href="#LiberationSans-6e" x="439.160156"/>
-     <use xlink:href="#LiberationSans-64" x="494.775391"/>
-     <use xlink:href="#LiberationSans-20" x="550.390625"/>
-     <use xlink:href="#LiberationSans-49" x="578.173828"/>
-     <use xlink:href="#LiberationSans-6e" x="605.957031"/>
-     <use xlink:href="#LiberationSans-73" x="661.572266"/>
-     <use xlink:href="#LiberationSans-75" x="711.572266"/>
-     <use xlink:href="#LiberationSans-72" x="767.1875"/>
-     <use xlink:href="#LiberationSans-61" x="800.488281"/>
-     <use xlink:href="#LiberationSans-6e" x="856.103516"/>
-     <use xlink:href="#LiberationSans-63" x="911.71875"/>
-     <use xlink:href="#LiberationSans-65" x="961.71875"/>
+   <g id="text_14">
+    <!-- Telecommunications -->
+    <g transform="translate(518.495511 204.787209) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-54"/>
+     <use xlink:href="#LiberationSans-65" x="49.958984"/>
+     <use xlink:href="#LiberationSans-6c" x="105.574219"/>
+     <use xlink:href="#LiberationSans-65" x="127.791016"/>
+     <use xlink:href="#LiberationSans-63" x="183.40625"/>
+     <use xlink:href="#LiberationSans-6f" x="233.40625"/>
+     <use xlink:href="#LiberationSans-6d" x="289.021484"/>
+     <use xlink:href="#LiberationSans-6d" x="372.322266"/>
+     <use xlink:href="#LiberationSans-75" x="455.623047"/>
+     <use xlink:href="#LiberationSans-6e" x="511.238281"/>
+     <use xlink:href="#LiberationSans-69" x="566.853516"/>
+     <use xlink:href="#LiberationSans-63" x="589.070312"/>
+     <use xlink:href="#LiberationSans-61" x="639.070312"/>
+     <use xlink:href="#LiberationSans-74" x="694.685547"/>
+     <use xlink:href="#LiberationSans-69" x="722.46875"/>
+     <use xlink:href="#LiberationSans-6f" x="744.685547"/>
+     <use xlink:href="#LiberationSans-6e" x="800.300781"/>
+     <use xlink:href="#LiberationSans-73" x="855.916016"/>
     </g>
    </g>
-   <g id="text_19">
+   <g id="text_15">
+    <!-- Full-Service Restaurants -->
+    <g transform="translate(500.760598 227.85897) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-46"/>
+     <use xlink:href="#LiberationSans-75" x="61.083984"/>
+     <use xlink:href="#LiberationSans-6c" x="116.699219"/>
+     <use xlink:href="#LiberationSans-6c" x="138.916016"/>
+     <use xlink:href="#LiberationSans-2d" x="161.132812"/>
+     <use xlink:href="#LiberationSans-53" x="194.433594"/>
+     <use xlink:href="#LiberationSans-65" x="261.132812"/>
+     <use xlink:href="#LiberationSans-72" x="316.748047"/>
+     <use xlink:href="#LiberationSans-76" x="350.048828"/>
+     <use xlink:href="#LiberationSans-69" x="400.048828"/>
+     <use xlink:href="#LiberationSans-63" x="422.265625"/>
+     <use xlink:href="#LiberationSans-65" x="472.265625"/>
+     <use xlink:href="#LiberationSans-20" x="527.880859"/>
+     <use xlink:href="#LiberationSans-52" x="555.664062"/>
+     <use xlink:href="#LiberationSans-65" x="627.880859"/>
+     <use xlink:href="#LiberationSans-73" x="683.496094"/>
+     <use xlink:href="#LiberationSans-74" x="733.496094"/>
+     <use xlink:href="#LiberationSans-61" x="761.279297"/>
+     <use xlink:href="#LiberationSans-75" x="816.894531"/>
+     <use xlink:href="#LiberationSans-72" x="872.509766"/>
+     <use xlink:href="#LiberationSans-61" x="905.810547"/>
+     <use xlink:href="#LiberationSans-6e" x="961.425781"/>
+     <use xlink:href="#LiberationSans-74" x="1017.041016"/>
+     <use xlink:href="#LiberationSans-73" x="1044.824219"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <!-- Health Care and Social Assistance -->
+    <g transform="translate(454.315314 250.93073) scale(0.08 -0.08)">
+     <defs>
+      <path id="LiberationSans-41" d="M 3647 0 
+L 3144 1288 
+L 1138 1288 
+L 631 0 
+L 13 0 
+L 1809 4403 
+L 2488 4403 
+L 4256 0 
+L 3647 0 
+z
+M 2400 3206 
+Q 2350 3331 2304 3459 
+Q 2259 3588 2225 3692 
+Q 2191 3797 2167 3867 
+Q 2144 3938 2141 3953 
+Q 2134 3938 2112 3866 
+Q 2091 3794 2055 3687 
+Q 2019 3581 1973 3453 
+Q 1928 3325 1881 3200 
+L 1319 1753 
+L 2966 1753 
+L 2400 3206 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#LiberationSans-48"/>
+     <use xlink:href="#LiberationSans-65" x="72.216797"/>
+     <use xlink:href="#LiberationSans-61" x="127.832031"/>
+     <use xlink:href="#LiberationSans-6c" x="183.447266"/>
+     <use xlink:href="#LiberationSans-74" x="205.664062"/>
+     <use xlink:href="#LiberationSans-68" x="233.447266"/>
+     <use xlink:href="#LiberationSans-20" x="289.0625"/>
+     <use xlink:href="#LiberationSans-43" x="316.845703"/>
+     <use xlink:href="#LiberationSans-61" x="389.0625"/>
+     <use xlink:href="#LiberationSans-72" x="444.677734"/>
+     <use xlink:href="#LiberationSans-65" x="477.978516"/>
+     <use xlink:href="#LiberationSans-20" x="533.59375"/>
+     <use xlink:href="#LiberationSans-61" x="561.376953"/>
+     <use xlink:href="#LiberationSans-6e" x="616.992188"/>
+     <use xlink:href="#LiberationSans-64" x="672.607422"/>
+     <use xlink:href="#LiberationSans-20" x="728.222656"/>
+     <use xlink:href="#LiberationSans-53" x="756.005859"/>
+     <use xlink:href="#LiberationSans-6f" x="822.705078"/>
+     <use xlink:href="#LiberationSans-63" x="878.320312"/>
+     <use xlink:href="#LiberationSans-69" x="928.320312"/>
+     <use xlink:href="#LiberationSans-61" x="950.537109"/>
+     <use xlink:href="#LiberationSans-6c" x="1006.152344"/>
+     <use xlink:href="#LiberationSans-20" x="1028.369141"/>
+     <use xlink:href="#LiberationSans-41" x="1050.652344"/>
+     <use xlink:href="#LiberationSans-73" x="1117.351562"/>
+     <use xlink:href="#LiberationSans-73" x="1167.351562"/>
+     <use xlink:href="#LiberationSans-69" x="1217.351562"/>
+     <use xlink:href="#LiberationSans-73" x="1239.568359"/>
+     <use xlink:href="#LiberationSans-74" x="1289.568359"/>
+     <use xlink:href="#LiberationSans-61" x="1317.351562"/>
+     <use xlink:href="#LiberationSans-6e" x="1372.966797"/>
+     <use xlink:href="#LiberationSans-63" x="1428.582031"/>
+     <use xlink:href="#LiberationSans-65" x="1478.582031"/>
+    </g>
+   </g>
+   <g id="text_17">
     <!-- Limited-Service Restaurants Fast-food restaurants -->
-    <g transform="translate(362.043054 320.14601) scale(0.08 -0.08)">
+    <g transform="translate(391.139592 274.00249) scale(0.08 -0.08)">
      <use xlink:href="#LiberationSans-4c"/>
      <use xlink:href="#LiberationSans-69" x="55.615234"/>
      <use xlink:href="#LiberationSans-6d" x="77.832031"/>
@@ -2151,77 +2079,9 @@ z
      <use xlink:href="#LiberationSans-73" x="2184.277344"/>
     </g>
    </g>
-   <g id="text_20">
-    <!-- Limited-Service Restaurants Fast casual restaurants -->
-    <g transform="translate(343.426896 343.21777) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-4c"/>
-     <use xlink:href="#LiberationSans-69" x="55.615234"/>
-     <use xlink:href="#LiberationSans-6d" x="77.832031"/>
-     <use xlink:href="#LiberationSans-69" x="161.132812"/>
-     <use xlink:href="#LiberationSans-74" x="183.349609"/>
-     <use xlink:href="#LiberationSans-65" x="211.132812"/>
-     <use xlink:href="#LiberationSans-64" x="266.748047"/>
-     <use xlink:href="#LiberationSans-2d" x="322.363281"/>
-     <use xlink:href="#LiberationSans-53" x="355.664062"/>
-     <use xlink:href="#LiberationSans-65" x="422.363281"/>
-     <use xlink:href="#LiberationSans-72" x="477.978516"/>
-     <use xlink:href="#LiberationSans-76" x="511.279297"/>
-     <use xlink:href="#LiberationSans-69" x="561.279297"/>
-     <use xlink:href="#LiberationSans-63" x="583.496094"/>
-     <use xlink:href="#LiberationSans-65" x="633.496094"/>
-     <use xlink:href="#LiberationSans-20" x="689.111328"/>
-     <use xlink:href="#LiberationSans-52" x="716.894531"/>
-     <use xlink:href="#LiberationSans-65" x="789.111328"/>
-     <use xlink:href="#LiberationSans-73" x="844.726562"/>
-     <use xlink:href="#LiberationSans-74" x="894.726562"/>
-     <use xlink:href="#LiberationSans-61" x="922.509766"/>
-     <use xlink:href="#LiberationSans-75" x="978.125"/>
-     <use xlink:href="#LiberationSans-72" x="1033.740234"/>
-     <use xlink:href="#LiberationSans-61" x="1067.041016"/>
-     <use xlink:href="#LiberationSans-6e" x="1122.65625"/>
-     <use xlink:href="#LiberationSans-74" x="1178.271484"/>
-     <use xlink:href="#LiberationSans-73" x="1206.054688"/>
-     <use xlink:href="#LiberationSans-20" x="1256.054688"/>
-     <use xlink:href="#LiberationSans-46" x="1283.837891"/>
-     <use xlink:href="#LiberationSans-61" x="1344.921875"/>
-     <use xlink:href="#LiberationSans-73" x="1400.537109"/>
-     <use xlink:href="#LiberationSans-74" x="1450.537109"/>
-     <use xlink:href="#LiberationSans-20" x="1478.320312"/>
-     <use xlink:href="#LiberationSans-63" x="1506.103516"/>
-     <use xlink:href="#LiberationSans-61" x="1556.103516"/>
-     <use xlink:href="#LiberationSans-73" x="1611.71875"/>
-     <use xlink:href="#LiberationSans-75" x="1661.71875"/>
-     <use xlink:href="#LiberationSans-61" x="1717.333984"/>
-     <use xlink:href="#LiberationSans-6c" x="1772.949219"/>
-     <use xlink:href="#LiberationSans-20" x="1795.166016"/>
-     <use xlink:href="#LiberationSans-72" x="1822.949219"/>
-     <use xlink:href="#LiberationSans-65" x="1856.25"/>
-     <use xlink:href="#LiberationSans-73" x="1911.865234"/>
-     <use xlink:href="#LiberationSans-74" x="1961.865234"/>
-     <use xlink:href="#LiberationSans-61" x="1989.648438"/>
-     <use xlink:href="#LiberationSans-75" x="2045.263672"/>
-     <use xlink:href="#LiberationSans-72" x="2100.878906"/>
-     <use xlink:href="#LiberationSans-61" x="2134.179688"/>
-     <use xlink:href="#LiberationSans-6e" x="2189.794922"/>
-     <use xlink:href="#LiberationSans-74" x="2245.410156"/>
-     <use xlink:href="#LiberationSans-73" x="2273.193359"/>
-    </g>
-   </g>
-   <g id="text_21">
-    <!-- Unknown -->
-    <g transform="translate(449.939961 366.28953) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-55"/>
-     <use xlink:href="#LiberationSans-6e" x="72.216797"/>
-     <use xlink:href="#LiberationSans-6b" x="127.832031"/>
-     <use xlink:href="#LiberationSans-6e" x="177.832031"/>
-     <use xlink:href="#LiberationSans-6f" x="233.447266"/>
-     <use xlink:href="#LiberationSans-77" x="289.0625"/>
-     <use xlink:href="#LiberationSans-6e" x="361.279297"/>
-    </g>
-   </g>
-   <g id="text_22">
-    <!-- Salons, Drycleaning/Laundry, &amp; Pet Care -->
-    <g transform="translate(310.864455 389.361291) scale(0.08 -0.08)">
+   <g id="text_18">
+    <!-- Arts, Entertainment and Recreation -->
+    <g transform="translate(443.013327 297.07425) scale(0.08 -0.08)">
      <defs>
       <path id="LiberationSans-2c" d="M 1203 684 
 L 1203 159 
@@ -2237,6 +2097,47 @@ L 594 684
 L 1203 684 
 z
 " transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#LiberationSans-41"/>
+     <use xlink:href="#LiberationSans-72" x="66.699219"/>
+     <use xlink:href="#LiberationSans-74" x="100"/>
+     <use xlink:href="#LiberationSans-73" x="127.783203"/>
+     <use xlink:href="#LiberationSans-2c" x="177.783203"/>
+     <use xlink:href="#LiberationSans-20" x="205.566406"/>
+     <use xlink:href="#LiberationSans-45" x="233.349609"/>
+     <use xlink:href="#LiberationSans-6e" x="300.048828"/>
+     <use xlink:href="#LiberationSans-74" x="355.664062"/>
+     <use xlink:href="#LiberationSans-65" x="383.447266"/>
+     <use xlink:href="#LiberationSans-72" x="439.0625"/>
+     <use xlink:href="#LiberationSans-74" x="472.363281"/>
+     <use xlink:href="#LiberationSans-61" x="500.146484"/>
+     <use xlink:href="#LiberationSans-69" x="555.761719"/>
+     <use xlink:href="#LiberationSans-6e" x="577.978516"/>
+     <use xlink:href="#LiberationSans-6d" x="633.59375"/>
+     <use xlink:href="#LiberationSans-65" x="716.894531"/>
+     <use xlink:href="#LiberationSans-6e" x="772.509766"/>
+     <use xlink:href="#LiberationSans-74" x="828.125"/>
+     <use xlink:href="#LiberationSans-20" x="855.908203"/>
+     <use xlink:href="#LiberationSans-61" x="883.691406"/>
+     <use xlink:href="#LiberationSans-6e" x="939.306641"/>
+     <use xlink:href="#LiberationSans-64" x="994.921875"/>
+     <use xlink:href="#LiberationSans-20" x="1050.537109"/>
+     <use xlink:href="#LiberationSans-52" x="1078.320312"/>
+     <use xlink:href="#LiberationSans-65" x="1150.537109"/>
+     <use xlink:href="#LiberationSans-63" x="1206.152344"/>
+     <use xlink:href="#LiberationSans-72" x="1256.152344"/>
+     <use xlink:href="#LiberationSans-65" x="1289.453125"/>
+     <use xlink:href="#LiberationSans-61" x="1345.068359"/>
+     <use xlink:href="#LiberationSans-74" x="1400.683594"/>
+     <use xlink:href="#LiberationSans-69" x="1428.466797"/>
+     <use xlink:href="#LiberationSans-6f" x="1450.683594"/>
+     <use xlink:href="#LiberationSans-6e" x="1506.298828"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <!-- Salons, Drycleaning/Laundry, &amp; Pet Care -->
+    <g transform="translate(397.380679 320.14601) scale(0.08 -0.08)">
+     <defs>
       <path id="LiberationSans-44" d="M 4316 2247 
 Q 4316 1697 4150 1276 
 Q 3984 856 3696 573 
@@ -2474,180 +2375,22 @@ z
      <use xlink:href="#LiberationSans-65" x="1760.203125"/>
     </g>
    </g>
-   <g id="text_23">
-    <!-- Arts, Entertainment and Recreation -->
-    <g transform="translate(328.854761 412.433051) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-41"/>
-     <use xlink:href="#LiberationSans-72" x="66.699219"/>
-     <use xlink:href="#LiberationSans-74" x="100"/>
-     <use xlink:href="#LiberationSans-73" x="127.783203"/>
-     <use xlink:href="#LiberationSans-2c" x="177.783203"/>
-     <use xlink:href="#LiberationSans-20" x="205.566406"/>
-     <use xlink:href="#LiberationSans-45" x="233.349609"/>
-     <use xlink:href="#LiberationSans-6e" x="300.048828"/>
-     <use xlink:href="#LiberationSans-74" x="355.664062"/>
-     <use xlink:href="#LiberationSans-65" x="383.447266"/>
-     <use xlink:href="#LiberationSans-72" x="439.0625"/>
-     <use xlink:href="#LiberationSans-74" x="472.363281"/>
-     <use xlink:href="#LiberationSans-61" x="500.146484"/>
-     <use xlink:href="#LiberationSans-69" x="555.761719"/>
-     <use xlink:href="#LiberationSans-6e" x="577.978516"/>
-     <use xlink:href="#LiberationSans-6d" x="633.59375"/>
-     <use xlink:href="#LiberationSans-65" x="716.894531"/>
-     <use xlink:href="#LiberationSans-6e" x="772.509766"/>
-     <use xlink:href="#LiberationSans-74" x="828.125"/>
-     <use xlink:href="#LiberationSans-20" x="855.908203"/>
-     <use xlink:href="#LiberationSans-61" x="883.691406"/>
-     <use xlink:href="#LiberationSans-6e" x="939.306641"/>
-     <use xlink:href="#LiberationSans-64" x="994.921875"/>
-     <use xlink:href="#LiberationSans-20" x="1050.537109"/>
-     <use xlink:href="#LiberationSans-52" x="1078.320312"/>
-     <use xlink:href="#LiberationSans-65" x="1150.537109"/>
-     <use xlink:href="#LiberationSans-63" x="1206.152344"/>
-     <use xlink:href="#LiberationSans-72" x="1256.152344"/>
-     <use xlink:href="#LiberationSans-65" x="1289.453125"/>
-     <use xlink:href="#LiberationSans-61" x="1345.068359"/>
-     <use xlink:href="#LiberationSans-74" x="1400.683594"/>
-     <use xlink:href="#LiberationSans-69" x="1428.466797"/>
-     <use xlink:href="#LiberationSans-6f" x="1450.683594"/>
-     <use xlink:href="#LiberationSans-6e" x="1506.298828"/>
+   <g id="text_20">
+    <!-- Unknown -->
+    <g transform="translate(451.671393 343.21777) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-55"/>
+     <use xlink:href="#LiberationSans-6e" x="72.216797"/>
+     <use xlink:href="#LiberationSans-6b" x="127.832031"/>
+     <use xlink:href="#LiberationSans-6e" x="177.832031"/>
+     <use xlink:href="#LiberationSans-6f" x="233.447266"/>
+     <use xlink:href="#LiberationSans-77" x="289.0625"/>
+     <use xlink:href="#LiberationSans-6e" x="361.279297"/>
     </g>
    </g>
-   <g id="text_24">
-    <!-- Arts, Entertainment and Recreation -->
-    <g transform="translate(289.966073 435.504811) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-41"/>
-     <use xlink:href="#LiberationSans-72" x="66.699219"/>
-     <use xlink:href="#LiberationSans-74" x="100"/>
-     <use xlink:href="#LiberationSans-73" x="127.783203"/>
-     <use xlink:href="#LiberationSans-2c" x="177.783203"/>
-     <use xlink:href="#LiberationSans-20" x="205.566406"/>
-     <use xlink:href="#LiberationSans-45" x="233.349609"/>
-     <use xlink:href="#LiberationSans-6e" x="300.048828"/>
-     <use xlink:href="#LiberationSans-74" x="355.664062"/>
-     <use xlink:href="#LiberationSans-65" x="383.447266"/>
-     <use xlink:href="#LiberationSans-72" x="439.0625"/>
-     <use xlink:href="#LiberationSans-74" x="472.363281"/>
-     <use xlink:href="#LiberationSans-61" x="500.146484"/>
-     <use xlink:href="#LiberationSans-69" x="555.761719"/>
-     <use xlink:href="#LiberationSans-6e" x="577.978516"/>
-     <use xlink:href="#LiberationSans-6d" x="633.59375"/>
-     <use xlink:href="#LiberationSans-65" x="716.894531"/>
-     <use xlink:href="#LiberationSans-6e" x="772.509766"/>
-     <use xlink:href="#LiberationSans-74" x="828.125"/>
-     <use xlink:href="#LiberationSans-20" x="855.908203"/>
-     <use xlink:href="#LiberationSans-61" x="883.691406"/>
-     <use xlink:href="#LiberationSans-6e" x="939.306641"/>
-     <use xlink:href="#LiberationSans-64" x="994.921875"/>
-     <use xlink:href="#LiberationSans-20" x="1050.537109"/>
-     <use xlink:href="#LiberationSans-52" x="1078.320312"/>
-     <use xlink:href="#LiberationSans-65" x="1150.537109"/>
-     <use xlink:href="#LiberationSans-63" x="1206.152344"/>
-     <use xlink:href="#LiberationSans-72" x="1256.152344"/>
-     <use xlink:href="#LiberationSans-65" x="1289.453125"/>
-     <use xlink:href="#LiberationSans-61" x="1345.068359"/>
-     <use xlink:href="#LiberationSans-74" x="1400.683594"/>
-     <use xlink:href="#LiberationSans-69" x="1428.466797"/>
-     <use xlink:href="#LiberationSans-6f" x="1450.683594"/>
-     <use xlink:href="#LiberationSans-6e" x="1506.298828"/>
-    </g>
-   </g>
-   <g id="text_25">
-    <!-- Full-Service Restaurants -->
-    <g transform="translate(303.483527 458.576571) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-46"/>
-     <use xlink:href="#LiberationSans-75" x="61.083984"/>
-     <use xlink:href="#LiberationSans-6c" x="116.699219"/>
-     <use xlink:href="#LiberationSans-6c" x="138.916016"/>
-     <use xlink:href="#LiberationSans-2d" x="161.132812"/>
-     <use xlink:href="#LiberationSans-53" x="194.433594"/>
-     <use xlink:href="#LiberationSans-65" x="261.132812"/>
-     <use xlink:href="#LiberationSans-72" x="316.748047"/>
-     <use xlink:href="#LiberationSans-76" x="350.048828"/>
-     <use xlink:href="#LiberationSans-69" x="400.048828"/>
-     <use xlink:href="#LiberationSans-63" x="422.265625"/>
-     <use xlink:href="#LiberationSans-65" x="472.265625"/>
-     <use xlink:href="#LiberationSans-20" x="527.880859"/>
-     <use xlink:href="#LiberationSans-52" x="555.664062"/>
-     <use xlink:href="#LiberationSans-65" x="627.880859"/>
-     <use xlink:href="#LiberationSans-73" x="683.496094"/>
-     <use xlink:href="#LiberationSans-74" x="733.496094"/>
-     <use xlink:href="#LiberationSans-61" x="761.279297"/>
-     <use xlink:href="#LiberationSans-75" x="816.894531"/>
-     <use xlink:href="#LiberationSans-72" x="872.509766"/>
-     <use xlink:href="#LiberationSans-61" x="905.810547"/>
-     <use xlink:href="#LiberationSans-6e" x="961.425781"/>
-     <use xlink:href="#LiberationSans-74" x="1017.041016"/>
-     <use xlink:href="#LiberationSans-73" x="1044.824219"/>
-    </g>
-   </g>
-   <g id="text_26">
-    <!-- Salons, Drycleaning/Laundry, &amp; Pet Care -->
-    <g transform="translate(92.7606 481.648331) scale(0.08 -0.08)">
-     <use xlink:href="#LiberationSans-53"/>
-     <use xlink:href="#LiberationSans-61" x="66.699219"/>
-     <use xlink:href="#LiberationSans-6c" x="122.314453"/>
-     <use xlink:href="#LiberationSans-6f" x="144.53125"/>
-     <use xlink:href="#LiberationSans-6e" x="200.146484"/>
-     <use xlink:href="#LiberationSans-73" x="255.761719"/>
-     <use xlink:href="#LiberationSans-2c" x="305.761719"/>
-     <use xlink:href="#LiberationSans-20" x="333.544922"/>
-     <use xlink:href="#LiberationSans-44" x="361.328125"/>
-     <use xlink:href="#LiberationSans-72" x="433.544922"/>
-     <use xlink:href="#LiberationSans-79" x="466.845703"/>
-     <use xlink:href="#LiberationSans-63" x="516.845703"/>
-     <use xlink:href="#LiberationSans-6c" x="566.845703"/>
-     <use xlink:href="#LiberationSans-65" x="589.0625"/>
-     <use xlink:href="#LiberationSans-61" x="644.677734"/>
-     <use xlink:href="#LiberationSans-6e" x="700.292969"/>
-     <use xlink:href="#LiberationSans-69" x="755.908203"/>
-     <use xlink:href="#LiberationSans-6e" x="778.125"/>
-     <use xlink:href="#LiberationSans-67" x="833.740234"/>
-     <use xlink:href="#LiberationSans-2f" x="889.355469"/>
-     <use xlink:href="#LiberationSans-4c" x="917.138672"/>
-     <use xlink:href="#LiberationSans-61" x="972.753906"/>
-     <use xlink:href="#LiberationSans-75" x="1028.369141"/>
-     <use xlink:href="#LiberationSans-6e" x="1083.984375"/>
-     <use xlink:href="#LiberationSans-64" x="1139.599609"/>
-     <use xlink:href="#LiberationSans-72" x="1195.214844"/>
-     <use xlink:href="#LiberationSans-79" x="1228.515625"/>
-     <use xlink:href="#LiberationSans-2c" x="1271.140625"/>
-     <use xlink:href="#LiberationSans-20" x="1298.923828"/>
-     <use xlink:href="#LiberationSans-26" x="1326.707031"/>
-     <use xlink:href="#LiberationSans-20" x="1393.40625"/>
-     <use xlink:href="#LiberationSans-50" x="1421.189453"/>
-     <use xlink:href="#LiberationSans-65" x="1487.888672"/>
-     <use xlink:href="#LiberationSans-74" x="1543.503906"/>
-     <use xlink:href="#LiberationSans-20" x="1571.287109"/>
-     <use xlink:href="#LiberationSans-43" x="1599.070312"/>
-     <use xlink:href="#LiberationSans-61" x="1671.287109"/>
-     <use xlink:href="#LiberationSans-72" x="1726.902344"/>
-     <use xlink:href="#LiberationSans-65" x="1760.203125"/>
-    </g>
-   </g>
-   <g id="text_27">
-    <!-- Snack and Nonalcoholic Beverage Bars -->
-    <g transform="translate(13.983166 504.720091) scale(0.08 -0.08)">
+   <g id="text_21">
+    <!-- Food and Beverage Stores -->
+    <g transform="translate(379.698033 366.28953) scale(0.08 -0.08)">
      <defs>
-      <path id="LiberationSans-4e" d="M 3381 0 
-L 1025 3750 
-Q 1031 3597 1041 3447 
-Q 1047 3319 1051 3176 
-Q 1056 3034 1056 2925 
-L 1056 0 
-L 525 0 
-L 525 4403 
-L 1219 4403 
-L 3600 628 
-Q 3591 781 3581 934 
-Q 3575 1066 3569 1220 
-Q 3563 1375 3563 1516 
-L 3563 4403 
-L 4100 4403 
-L 4100 0 
-L 3381 0 
-z
-" transform="scale(0.015625)"/>
       <path id="LiberationSans-42" d="M 3931 1241 
 Q 3931 906 3800 670 
 Q 3669 434 3447 286 
@@ -2695,6 +2438,158 @@ Q 3328 1053 3328 1288
 z
 " transform="scale(0.015625)"/>
      </defs>
+     <use xlink:href="#LiberationSans-46"/>
+     <use xlink:href="#LiberationSans-6f" x="61.083984"/>
+     <use xlink:href="#LiberationSans-6f" x="116.699219"/>
+     <use xlink:href="#LiberationSans-64" x="172.314453"/>
+     <use xlink:href="#LiberationSans-20" x="227.929688"/>
+     <use xlink:href="#LiberationSans-61" x="255.712891"/>
+     <use xlink:href="#LiberationSans-6e" x="311.328125"/>
+     <use xlink:href="#LiberationSans-64" x="366.943359"/>
+     <use xlink:href="#LiberationSans-20" x="422.558594"/>
+     <use xlink:href="#LiberationSans-42" x="450.341797"/>
+     <use xlink:href="#LiberationSans-65" x="517.041016"/>
+     <use xlink:href="#LiberationSans-76" x="572.65625"/>
+     <use xlink:href="#LiberationSans-65" x="622.65625"/>
+     <use xlink:href="#LiberationSans-72" x="678.271484"/>
+     <use xlink:href="#LiberationSans-61" x="711.572266"/>
+     <use xlink:href="#LiberationSans-67" x="767.1875"/>
+     <use xlink:href="#LiberationSans-65" x="822.802734"/>
+     <use xlink:href="#LiberationSans-20" x="878.417969"/>
+     <use xlink:href="#LiberationSans-53" x="906.201172"/>
+     <use xlink:href="#LiberationSans-74" x="972.900391"/>
+     <use xlink:href="#LiberationSans-6f" x="1000.683594"/>
+     <use xlink:href="#LiberationSans-72" x="1056.298828"/>
+     <use xlink:href="#LiberationSans-65" x="1089.599609"/>
+     <use xlink:href="#LiberationSans-73" x="1145.214844"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- Full-Service Restaurants -->
+    <g transform="translate(376.407849 389.361291) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-46"/>
+     <use xlink:href="#LiberationSans-75" x="61.083984"/>
+     <use xlink:href="#LiberationSans-6c" x="116.699219"/>
+     <use xlink:href="#LiberationSans-6c" x="138.916016"/>
+     <use xlink:href="#LiberationSans-2d" x="161.132812"/>
+     <use xlink:href="#LiberationSans-53" x="194.433594"/>
+     <use xlink:href="#LiberationSans-65" x="261.132812"/>
+     <use xlink:href="#LiberationSans-72" x="316.748047"/>
+     <use xlink:href="#LiberationSans-76" x="350.048828"/>
+     <use xlink:href="#LiberationSans-69" x="400.048828"/>
+     <use xlink:href="#LiberationSans-63" x="422.265625"/>
+     <use xlink:href="#LiberationSans-65" x="472.265625"/>
+     <use xlink:href="#LiberationSans-20" x="527.880859"/>
+     <use xlink:href="#LiberationSans-52" x="555.664062"/>
+     <use xlink:href="#LiberationSans-65" x="627.880859"/>
+     <use xlink:href="#LiberationSans-73" x="683.496094"/>
+     <use xlink:href="#LiberationSans-74" x="733.496094"/>
+     <use xlink:href="#LiberationSans-61" x="761.279297"/>
+     <use xlink:href="#LiberationSans-75" x="816.894531"/>
+     <use xlink:href="#LiberationSans-72" x="872.509766"/>
+     <use xlink:href="#LiberationSans-61" x="905.810547"/>
+     <use xlink:href="#LiberationSans-6e" x="961.425781"/>
+     <use xlink:href="#LiberationSans-74" x="1017.041016"/>
+     <use xlink:href="#LiberationSans-73" x="1044.824219"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <!-- Full-Service Restaurants -->
+    <g transform="translate(345.902116 412.433051) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-46"/>
+     <use xlink:href="#LiberationSans-75" x="61.083984"/>
+     <use xlink:href="#LiberationSans-6c" x="116.699219"/>
+     <use xlink:href="#LiberationSans-6c" x="138.916016"/>
+     <use xlink:href="#LiberationSans-2d" x="161.132812"/>
+     <use xlink:href="#LiberationSans-53" x="194.433594"/>
+     <use xlink:href="#LiberationSans-65" x="261.132812"/>
+     <use xlink:href="#LiberationSans-72" x="316.748047"/>
+     <use xlink:href="#LiberationSans-76" x="350.048828"/>
+     <use xlink:href="#LiberationSans-69" x="400.048828"/>
+     <use xlink:href="#LiberationSans-63" x="422.265625"/>
+     <use xlink:href="#LiberationSans-65" x="472.265625"/>
+     <use xlink:href="#LiberationSans-20" x="527.880859"/>
+     <use xlink:href="#LiberationSans-52" x="555.664062"/>
+     <use xlink:href="#LiberationSans-65" x="627.880859"/>
+     <use xlink:href="#LiberationSans-73" x="683.496094"/>
+     <use xlink:href="#LiberationSans-74" x="733.496094"/>
+     <use xlink:href="#LiberationSans-61" x="761.279297"/>
+     <use xlink:href="#LiberationSans-75" x="816.894531"/>
+     <use xlink:href="#LiberationSans-72" x="872.509766"/>
+     <use xlink:href="#LiberationSans-61" x="905.810547"/>
+     <use xlink:href="#LiberationSans-6e" x="961.425781"/>
+     <use xlink:href="#LiberationSans-74" x="1017.041016"/>
+     <use xlink:href="#LiberationSans-73" x="1044.824219"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <!-- Salons, Drycleaning/Laundry, &amp; Pet Care -->
+    <g transform="translate(144.048644 435.504811) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-53"/>
+     <use xlink:href="#LiberationSans-61" x="66.699219"/>
+     <use xlink:href="#LiberationSans-6c" x="122.314453"/>
+     <use xlink:href="#LiberationSans-6f" x="144.53125"/>
+     <use xlink:href="#LiberationSans-6e" x="200.146484"/>
+     <use xlink:href="#LiberationSans-73" x="255.761719"/>
+     <use xlink:href="#LiberationSans-2c" x="305.761719"/>
+     <use xlink:href="#LiberationSans-20" x="333.544922"/>
+     <use xlink:href="#LiberationSans-44" x="361.328125"/>
+     <use xlink:href="#LiberationSans-72" x="433.544922"/>
+     <use xlink:href="#LiberationSans-79" x="466.845703"/>
+     <use xlink:href="#LiberationSans-63" x="516.845703"/>
+     <use xlink:href="#LiberationSans-6c" x="566.845703"/>
+     <use xlink:href="#LiberationSans-65" x="589.0625"/>
+     <use xlink:href="#LiberationSans-61" x="644.677734"/>
+     <use xlink:href="#LiberationSans-6e" x="700.292969"/>
+     <use xlink:href="#LiberationSans-69" x="755.908203"/>
+     <use xlink:href="#LiberationSans-6e" x="778.125"/>
+     <use xlink:href="#LiberationSans-67" x="833.740234"/>
+     <use xlink:href="#LiberationSans-2f" x="889.355469"/>
+     <use xlink:href="#LiberationSans-4c" x="917.138672"/>
+     <use xlink:href="#LiberationSans-61" x="972.753906"/>
+     <use xlink:href="#LiberationSans-75" x="1028.369141"/>
+     <use xlink:href="#LiberationSans-6e" x="1083.984375"/>
+     <use xlink:href="#LiberationSans-64" x="1139.599609"/>
+     <use xlink:href="#LiberationSans-72" x="1195.214844"/>
+     <use xlink:href="#LiberationSans-79" x="1228.515625"/>
+     <use xlink:href="#LiberationSans-2c" x="1271.140625"/>
+     <use xlink:href="#LiberationSans-20" x="1298.923828"/>
+     <use xlink:href="#LiberationSans-26" x="1326.707031"/>
+     <use xlink:href="#LiberationSans-20" x="1393.40625"/>
+     <use xlink:href="#LiberationSans-50" x="1421.189453"/>
+     <use xlink:href="#LiberationSans-65" x="1487.888672"/>
+     <use xlink:href="#LiberationSans-74" x="1543.503906"/>
+     <use xlink:href="#LiberationSans-20" x="1571.287109"/>
+     <use xlink:href="#LiberationSans-43" x="1599.070312"/>
+     <use xlink:href="#LiberationSans-61" x="1671.287109"/>
+     <use xlink:href="#LiberationSans-72" x="1726.902344"/>
+     <use xlink:href="#LiberationSans-65" x="1760.203125"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <!-- Snack and Nonalcoholic Beverage Bars -->
+    <g transform="translate(136.078646 458.576571) scale(0.08 -0.08)">
+     <defs>
+      <path id="LiberationSans-4e" d="M 3381 0 
+L 1025 3750 
+Q 1031 3597 1041 3447 
+Q 1047 3319 1051 3176 
+Q 1056 3034 1056 2925 
+L 1056 0 
+L 525 0 
+L 525 4403 
+L 1219 4403 
+L 3600 628 
+Q 3591 781 3581 934 
+Q 3575 1066 3569 1220 
+Q 3563 1375 3563 1516 
+L 3563 4403 
+L 4100 4403 
+L 4100 0 
+L 3381 0 
+z
+" transform="scale(0.015625)"/>
+     </defs>
      <use xlink:href="#LiberationSans-53"/>
      <use xlink:href="#LiberationSans-6e" x="66.699219"/>
      <use xlink:href="#LiberationSans-61" x="122.314453"/>
@@ -2733,9 +2628,60 @@ z
      <use xlink:href="#LiberationSans-73" x="1712.158203"/>
     </g>
    </g>
+   <g id="text_26">
+    <!-- Unknown -->
+    <g transform="translate(181.051128 481.648331) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-55"/>
+     <use xlink:href="#LiberationSans-6e" x="72.216797"/>
+     <use xlink:href="#LiberationSans-6b" x="127.832031"/>
+     <use xlink:href="#LiberationSans-6e" x="177.832031"/>
+     <use xlink:href="#LiberationSans-6f" x="233.447266"/>
+     <use xlink:href="#LiberationSans-77" x="289.0625"/>
+     <use xlink:href="#LiberationSans-6e" x="361.279297"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <!-- Arts, Entertainment and Recreation -->
+    <g transform="translate(13.78048 504.720091) scale(0.08 -0.08)">
+     <use xlink:href="#LiberationSans-41"/>
+     <use xlink:href="#LiberationSans-72" x="66.699219"/>
+     <use xlink:href="#LiberationSans-74" x="100"/>
+     <use xlink:href="#LiberationSans-73" x="127.783203"/>
+     <use xlink:href="#LiberationSans-2c" x="177.783203"/>
+     <use xlink:href="#LiberationSans-20" x="205.566406"/>
+     <use xlink:href="#LiberationSans-45" x="233.349609"/>
+     <use xlink:href="#LiberationSans-6e" x="300.048828"/>
+     <use xlink:href="#LiberationSans-74" x="355.664062"/>
+     <use xlink:href="#LiberationSans-65" x="383.447266"/>
+     <use xlink:href="#LiberationSans-72" x="439.0625"/>
+     <use xlink:href="#LiberationSans-74" x="472.363281"/>
+     <use xlink:href="#LiberationSans-61" x="500.146484"/>
+     <use xlink:href="#LiberationSans-69" x="555.761719"/>
+     <use xlink:href="#LiberationSans-6e" x="577.978516"/>
+     <use xlink:href="#LiberationSans-6d" x="633.59375"/>
+     <use xlink:href="#LiberationSans-65" x="716.894531"/>
+     <use xlink:href="#LiberationSans-6e" x="772.509766"/>
+     <use xlink:href="#LiberationSans-74" x="828.125"/>
+     <use xlink:href="#LiberationSans-20" x="855.908203"/>
+     <use xlink:href="#LiberationSans-61" x="883.691406"/>
+     <use xlink:href="#LiberationSans-6e" x="939.306641"/>
+     <use xlink:href="#LiberationSans-64" x="994.921875"/>
+     <use xlink:href="#LiberationSans-20" x="1050.537109"/>
+     <use xlink:href="#LiberationSans-52" x="1078.320312"/>
+     <use xlink:href="#LiberationSans-65" x="1150.537109"/>
+     <use xlink:href="#LiberationSans-63" x="1206.152344"/>
+     <use xlink:href="#LiberationSans-72" x="1256.152344"/>
+     <use xlink:href="#LiberationSans-65" x="1289.453125"/>
+     <use xlink:href="#LiberationSans-61" x="1345.068359"/>
+     <use xlink:href="#LiberationSans-74" x="1400.683594"/>
+     <use xlink:href="#LiberationSans-69" x="1428.466797"/>
+     <use xlink:href="#LiberationSans-6f" x="1450.683594"/>
+     <use xlink:href="#LiberationSans-6e" x="1506.298828"/>
+    </g>
+   </g>
    <g id="text_28">
     <!-- How Each Co-Tenant Influences  -->
-    <g style="fill: #262626" transform="translate(258.889219 24.5925) scale(0.24 -0.24)">
+    <g style="fill: #262626" transform="translate(250.744219 24.5925) scale(0.24 -0.24)">
      <use xlink:href="#LiberationSans-48"/>
      <use xlink:href="#LiberationSans-6f" x="72.216797"/>
      <use xlink:href="#LiberationSans-77" x="127.832031"/>
@@ -2768,7 +2714,7 @@ z
      <use xlink:href="#LiberationSans-20" x="1428.523438"/>
     </g>
     <!--  Recommendations for This Vacancy -->
-    <g style="fill: #262626" transform="translate(238.657969 50.4435) scale(0.24 -0.24)">
+    <g style="fill: #262626" transform="translate(230.512969 50.4435) scale(0.24 -0.24)">
      <defs>
       <path id="LiberationSans-56" d="M 2444 0 
 L 1825 0 
@@ -3685,8 +3631,8 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="pdfa9b4acb3">
-   <rect x="127.079436" y="56.4435" width="613.112066" height="477.124"/>
+  <clipPath id="pfc78cafe28">
+   <rect x="110.048981" y="56.4435" width="630.882975" height="477.124"/>
   </clipPath>
  </defs>
 </svg>

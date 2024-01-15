@@ -4,7 +4,7 @@ title: About AiCRE
 permalink: /about/
 ---
 
-
+ 
 <head>
     <!-- ...other head elements... -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
